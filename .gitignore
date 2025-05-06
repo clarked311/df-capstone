@@ -161,3 +161,6 @@ config/config.yaml
 # System Files
 .DS_Store
 notebooks/gitignore/*
+
+# Obsidian
+.obsidian/
