@@ -2,6 +2,8 @@
 
 # User Stories
 
+## 1
+- As a user, I want to select a player that has been considered for the HoF and see their biographical information.
 
 # Stages
 ## 1
