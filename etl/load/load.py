@@ -1,6 +1,6 @@
 import pandas as pd
 
-def load_HoF_data()
+def load_HoF_data():
     try:
         People = pd.read_csv('data/raw/People.csv')
         HoF = pd.read_csv('data/raw/HallOfFame.csv')
