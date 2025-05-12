@@ -1,8 +1,6 @@
-import pandas as pd
 import streamlit as st
-import plotly.express as px
-from load import load_HoF_data
-from transform import transform_HoF
+from etl.load.load import load_HoF_data
+from etl.transform.transform import transform_HoF
 
 st.title("MLB")
 
