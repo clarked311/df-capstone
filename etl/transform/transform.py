@@ -5,6 +5,9 @@ def transform_HoF(HoF, People, Apps):
     try:
         column_manager(People)
         column_manager(Apps)
+        
+        inter_data = HoF.merge(People, how='inner', copy=False)
+        trans_data = inter_data.merge(Apps, how='inner', copy=False)
     except Exception as e:
         print(f"An error occurred: {e}")
     return trans_data
