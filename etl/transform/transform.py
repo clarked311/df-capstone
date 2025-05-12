@@ -5,7 +5,6 @@ def transform_HoF(HoF, People, Apps):
     try:
         column_manager(People)
         column_manager(Apps)
-        
         inter_data = HoF.merge(People, how='inner', copy=False)
         trans_data = inter_data.merge(Apps, how='inner', copy=False)
     except Exception as e:
@@ -18,7 +17,8 @@ def column_manager(dataset):
         if 'deathCity' in dataset.columns:
             dataset.drop(['ID', 'retroID'], axis=1, inplace=True)
         elif 'G_all' in dataset.columns:
-            dataset.drop(['G_all', 'GS', 'G_batting', 'G_defense', 'G_p', 'G_c', 'G_1b', 'G_2b', 'G_3b', 'G_ss', 'G_lf', 'G_cf', 'G_rf', 'G_of', 'G_dh', 'G_ph', 'G_pr'], axis=1, inplace=True)
+            col_to_drop = ['G_all', 'GS', 'G_batting', 'G_defense', 'G_p', 'G_c', 'G_1b', 'G_2b', 'G_3b', 'G_ss', 'G_lf', 'G_cf', 'G_rf', 'G_of', 'G_dh', 'G_ph', 'G_pr']
+            dataset.drop(col_to_drop, axis=1, inplace=True)
         else:
             print('Dataset not found in manager')
     except Exception as e:
