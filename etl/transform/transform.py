@@ -5,6 +5,7 @@ def transform_HoF(HoF, People, Apps):
     try:
         column_manager(People)
         column_manager(Apps)
+        row_manager(HoF)
         inter_data = HoF.merge(People, how='inner', copy=False)
         trans_data = inter_data.merge(Apps, how='inner', copy=False)
     except Exception as e:
@@ -24,3 +25,30 @@ def column_manager(dataset):
     except Exception as e:
         print(f"An error occurred: {e}")
     return dataset
+
+
+def row_manager(dataset):
+    try:
+        ID_list = list_IDs(dataset)
+        managed_dataset = filter_rows(dataset, ID_list)
+    except Exception as e:
+        print(f"An error occurred: {e}")
+    return managed_dataset
+
+
+def list_IDs(dataset):
+    try:
+        ID_list = []
+        mid_list = dataset.loc(dataset['inducted'] == 'Y', ['playerID'])
+        ID_list = mid_list['playerID'].tolist()
+    except Exception as e:
+        print(f"An error occurred: {e}")
+    return ID_list
+
+
+def filter_rows(dataset, ID_list):
+    try:
+        filtered_dataset = []
+    except Exception as e:
+        print(f"An error occurred: {e}")
+    return filtered_dataset
