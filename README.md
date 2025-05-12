@@ -18,7 +18,9 @@
 ## 4
 - Set up loading
 ## 5
-- 
+- Started initial transformation
+## 6
+- Found that appearances was needed
 
 
 # Bibliography
