@@ -12,7 +12,7 @@ def transform_HoF(HoF, People, Apps):
         inter_data = HoF.merge(People, how='inner', copy=False)
         trans_data = inter_data.merge(Apps, how='inner', copy=False)
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"An error occurred in transform_HoF: {e}")
     return trans_data
 
 
@@ -28,7 +28,7 @@ def column_manager(df):
         else:
             print('df not found in manager')
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"An error occurred in column_manager: {e}")
     return df
 
 
@@ -38,7 +38,7 @@ def list_IDs(df):
         mid_list = df.loc(df['inducted'] == 'Y', ['playerID'])
         ID_list = mid_list['playerID'].tolist()
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"An error occurred in list_IDs: {e}")
     return ID_list
 
 
@@ -46,5 +46,5 @@ def row_manager(df, ID_list):
     try:
         filtered_df = df.drop(['playerID'] not in ID_list, axis=0, inplace=True)
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"An error occurred in row_manager: {e}")
     return filtered_df
