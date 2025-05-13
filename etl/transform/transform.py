@@ -16,35 +16,35 @@ def transform_HoF(HoF, People, Apps):
     return trans_data
 
 
-def column_manager(dataset):
+def column_manager(df):
     try:
-        if 'deathCity' in dataset.columns:
-            dataset.drop(['ID', 'bbrefID', 'retroID'], axis=1, inplace=True)
-        elif 'G_all' in dataset.columns:
+        if 'deathCity' in df.columns:
+            df.drop(['ID', 'bbrefID', 'retroID'], axis=1, inplace=True)
+        elif 'G_all' in df.columns:
             col_to_drop = ['G_all', 'GS', 'G_batting', 'G_defense', 'G_p',
                            'G_c', 'G_1b', 'G_2b', 'G_3b', 'G_ss', 'G_lf',
                            'G_cf', 'G_rf', 'G_of', 'G_dh', 'G_ph', 'G_pr']
-            dataset.drop(col_to_drop, axis=1, inplace=True)
+            df.drop(col_to_drop, axis=1, inplace=True)
         else:
-            print('Dataset not found in manager')
+            print('df not found in manager')
     except Exception as e:
         print(f"An error occurred: {e}")
-    return dataset
+    return df
 
 
-def list_IDs(dataset):
+def list_IDs(df):
     try:
         ID_list = []
-        mid_list = dataset.loc(dataset['inducted'] == 'Y', ['playerID'])
+        mid_list = df.loc(df['inducted'] == 'Y', ['playerID'])
         ID_list = mid_list['playerID'].tolist()
     except Exception as e:
         print(f"An error occurred: {e}")
     return ID_list
 
 
-def row_manager(dataset, ID_list):
+def row_manager(df, ID_list):
     try:
-        filtered_dataset = dataset.drop(['playerID'] not in ID_list, axis=0, inplace=True)
+        filtered_df = df.drop(['playerID'] not in ID_list, axis=0, inplace=True)
     except Exception as e:
         print(f"An error occurred: {e}")
-    return filtered_dataset
+    return filtered_df
