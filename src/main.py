@@ -10,11 +10,11 @@ st.write("MLB Stats")
 
 def etl_process():
     try:
-        datasets = extract_HoF_data()
+        dfs = extract_HoF_data()
 
-        HoF = datasets[1]
-        People = datasets[0]
-        Apps = datasets[2]
+        HoF = dfs[1]
+        People = dfs[0]
+        Apps = dfs[2]
 
         trans_data = transform_HoF(HoF, People, Apps)
 
