@@ -48,7 +48,7 @@ def write_days(df):
 
     bm = str(int(df['birthMonth'].iloc[0]))
     bday = str(int(df['birthDay'].iloc[0])) + ' ' + month_to_name[bm] \
-    + ' ' + str(int(df['birthYear'].iloc[0]))
+        + ' ' + str(int(df['birthYear'].iloc[0]))
 
     st.write('Born: ', bday)
 
