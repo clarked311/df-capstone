@@ -50,7 +50,7 @@ def list_IDs(df):
 
 def row_manager(df, ID_list):
     try:
-        filtered_df = df.drop(df['playerID'] not in ID_list, axis=0, inplace=True)
+        filtered_df = df[df['playerID'].isin(ID_list)]
     except Exception as e:
         print(f"An error occurred in row_manager: {e}")
     return filtered_df
