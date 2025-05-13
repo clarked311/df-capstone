@@ -38,19 +38,22 @@ def list_IDs(df):
     except Exception as e:
         print(f"An error occurred in ID_list setup: {e}")
     try:
-        mid_list = df.loc[df['inducted'] == 'Y', ['playerID']]
+        cols_to_ret = ['playerID', 'nameFirst', 'nameLast']
+        mid_list = df.loc[df['inducted'] == 'Y', cols_to_ret]
     except Exception as e:
         print(f"An error occurred in mid_list: {e}")
     try:
-        ID_list = mid_list['playerID'].tolist()
+        name = mid_list['nameFirst'] + ' ' + mid_list['nameLast']
+        ID_list = pd.Series(name.to_numpy(),
+                            index=mid_list['playerID']).to_dict()
     except Exception as e:
         print(f"An error occurred in ID_list allocation: {e}")
-    return list(dict.fromkeys(ID_list))
+    return ID_list
 
 
 def row_manager(df, ID_list):
     try:
-        filtered_df = df.drop(df['playerID'] not in ID_list, axis=0, inplace=True)
+        filtered_df = df[df['playerID'].isin(ID_list)]
     except Exception as e:
         print(f"An error occurred in row_manager: {e}")
     return filtered_df
