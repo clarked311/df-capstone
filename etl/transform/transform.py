@@ -44,7 +44,7 @@ def list_IDs(dataset):
 
 def row_manager(dataset, ID_list):
     try:
-        filtered_dataset = dataset.drop(not ID_list, axis=0, inplace=True)
+        filtered_dataset = dataset.drop(['playerID'] not in ID_list, axis=0, inplace=True)
     except Exception as e:
         print(f"An error occurred: {e}")
     return filtered_dataset
