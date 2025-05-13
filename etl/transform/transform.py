@@ -35,10 +35,16 @@ def column_manager(df):
 def list_IDs(df):
     try:
         ID_list = []
-        mid_list = df.loc(df['inducted'] == 'Y', ['playerID'])
+    except Exception as e:
+        print(f"An error occurred in ID_list setup: {e}")
+    try:
+        mid_list = df.loc[df['inducted'] == 'Y', ['playerID']]
+    except Exception as e:
+        print(f"An error occurred in mid_list: {e}")
+    try:
         ID_list = mid_list['playerID'].tolist()
     except Exception as e:
-        print(f"An error occurred in list_IDs: {e}")
+        print(f"An error occurred in ID_list allocation: {e}")
     return ID_list
 
 
