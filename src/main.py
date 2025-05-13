@@ -3,9 +3,9 @@ from etl.load.load import load_HoF
 from etl.transform.transform import transform_HoF
 from etl.extract.extract import extract_HoF_data
 
-st.title("MLB")
+# st.title("MLB")
 
-st.write("MLB Stats")
+# st.write("MLB Stats")
 
 
 def etl_process():
@@ -21,3 +21,6 @@ def etl_process():
         load_HoF(trans_data)
     except Exception as e:
         print(f"An error occurred: {e}")
+
+
+etl_process()
