@@ -8,5 +8,5 @@ def extract_HoF_data():
         HoF = pd.read_csv('data/raw/HallOfFame.csv', encoding='ISO-8859-15')
         Apps = pd.read_csv('data/raw/Appearances.csv', encoding='ISO-8859-15')
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"An error occurred in extract_HoF_data: {e}")
     return People, HoF, Apps
