@@ -1,12 +1,10 @@
-import pandas as pd
+from pathlib import Path
 
 
-def load_HoF_data():
-
+def load_HoF(dataset):
     try:
-        People = pd.read_csv('data/raw/People.csv')
-        HoF = pd.read_csv('data/raw/HallOfFame.csv')
-        Apps = pd.read_csv('data/raw/Appearances.csv')
+        filepath = Path('data/output/trans_HoF.csv')
+        dataset.to_csv(filepath)
     except Exception as e:
-        print(f"An error occurred: {e}")
-    return People, HoF, Apps
+        print(f'An error occurred: {e}')
+    return 'Extracted'
