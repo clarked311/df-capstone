@@ -45,7 +45,7 @@ def list_IDs(df):
         ID_list = mid_list['playerID'].tolist()
     except Exception as e:
         print(f"An error occurred in ID_list allocation: {e}")
-    return ID_list
+    return list(dict.fromkeys(ID_list))
 
 
 def row_manager(df, ID_list):
