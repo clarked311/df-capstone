@@ -16,6 +16,58 @@ st.title('MLB Hall of Fame')
 
 ID_list = list_IDs(df)
 
-player = st.selectbox('Select a Hall of Famer', ID_list)
+
+def display_name(opt):
+    try:
+        return ID_list[opt]
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+
+player = st.selectbox('Select a Hall of Famer',
+                      ID_list.keys(), format_func=display_name)
 
 filtered_df = selector(df, player)
+
+month_to_name = {
+    '1': 'January',
+    '2': 'February',
+    '3': 'March',
+    '4': 'April',
+    '5': 'May',
+    '6': 'June',
+    '7': 'July',
+    '8': 'August',
+    '9': 'September',
+    '10': 'October',
+    '11': 'November',
+    '12': 'December'
+}
+
+bm = str(int(filtered_df['birthMonth'].iloc[0]))
+bday = str(int(filtered_df['birthDay'].iloc[0])) + ' ' + month_to_name[bm] \
+ + ' ' + str(int(filtered_df['birthYear'].iloc[0]))
+
+st.write('Born: ', bday)
+
+death = ''
+dd = filtered_df['deathDay'].iloc[0]
+dm = filtered_df['deathMonth'].iloc[0]
+dy = filtered_df['deathYear'].iloc[0]
+
+if pd.notna(dd) or pd.notna(dm) or pd.notna(dy):
+    dds = ''
+    dms = ''
+    dys = ''
+    if pd.notna(dd):
+        dds = str(int(dd))
+    if pd.notna(dm):
+        dms = str(int(dm))
+        dms = month_to_name[dms]
+    if pd.notna(dy):
+        dys = str(int(dy))
+    death = dds + ' ' + dms + ' ' + dys
+
+st.write('Died: ', death)
+
+filtered_df
