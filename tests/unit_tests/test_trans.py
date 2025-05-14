@@ -1,7 +1,7 @@
 import pytest
 from etl.extract.extract import extract_HoF_data
 from etl.transform.transform import transform_HoF, column_manager, \
- list_IDs, row_manager
+ list_IDs, row_manager, vpc
 
 
 @pytest.fixture
@@ -50,3 +50,9 @@ def test_transform_HoF(extracted_data):
     assert ('biggica01' not in HoF['playerID']), 'Cavan still active'
     assert ('name' in Apps.columns), 'testing the merged columns'
     assert (Apps['franchID'].iloc[0] == 'BNA'), 'Merged data'
+
+
+def test_vpc(extracted_data):
+    df = vpc(extracted_data[1])
+    assert ('vote_share' in df.columns), 'vote share created'
+    assert (df['vote_share'].iloc[34] == 0.625), 'Adams received 5/8ths votes'
