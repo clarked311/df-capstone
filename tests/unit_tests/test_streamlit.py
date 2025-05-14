@@ -16,3 +16,27 @@ def test_selector(b_data):
     HoF = b_data[0]
     t_df = selector(HoF, 'beltrad01')
     assert (t_df['yearid'].iloc[0] == 2024), 'Beltre inducted 2024'
+
+
+def test_display_name(b_data):
+    pass
+
+
+def test_name_picker(b_data):
+    pass
+
+
+def test_write_days(b_data):
+    pass
+
+
+def test_play_info(b_data):
+    pass
+
+
+def test_HoF_tracker(b_data):
+    pass
+
+
+def test_team_chart(b_data):
+    pass
