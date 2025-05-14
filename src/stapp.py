@@ -59,19 +59,29 @@ def write_days(df):
             if pd.notna(dy):
                 dys = str(int(dy))
             death = dds + ' ' + dms + ' ' + dys
-            
+
         st.write('Died: ', death)
     except Exception as e:
         print(f"An error occurred in write_days: {e}")
 
 
-
 def play_info(df):
     try:
-        pass
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.metric(label='Height', value=f'{int(df['height'].iloc[0])}in')
+            st.metric(label='Throws', value=f'{df['throws'].iloc[0]}')
+            st.metric(label='Debut', value=f'{df['debut'].iloc[0]}')
+            st.metric(label='First Team', value=f'{df['teamID'].iloc[0]}')
+        with col2:
+            st.metric(label='Weight', value=f'{int(df['weight'].iloc[0])}lbs')
+            st.metric(label='Bats', value=f'{df['bats'].iloc[0]}')
+            st.metric(label='Final Game', value=f'{df['finalGame'].iloc[0]}')
+            st.metric(label='Last Team', value=f'{df['teamID'].iloc[-1]}')
+
     except Exception as e:
         print(f"An error occurred in play_info: {e}")
-
 
 
 st.title('MLB Hall of Fame')
@@ -84,5 +94,7 @@ player = st.selectbox('Select a Hall of Famer',
 filtered_df = selector(df, player)
 
 write_days(filtered_df)
+
+play_info(filtered_df)
 
 filtered_df
