@@ -33,7 +33,7 @@ def column_manager(df):
                            'FP', 'park', 'attendance', 'BPF', 'PPF',
                            'teamIDBR', 'teamIDlahman45', 'teamIDretro']
             df.drop(col_to_drop, axis=1, inplace=True)
-            df.drop_duplicates
+            df.drop_duplicates(inplace=True)
         else:
             print('df not found in manager')
     except Exception as e:
