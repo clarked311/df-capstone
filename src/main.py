@@ -1,11 +1,6 @@
-import streamlit as st
 from etl.load.load import load_HoF
 from etl.transform.transform import transform_HoF
 from etl.extract.extract import extract_HoF_data
-
-# st.title("MLB")
-
-# st.write("MLB Stats")
 
 
 def etl_process():
