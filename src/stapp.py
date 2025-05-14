@@ -109,10 +109,12 @@ ID_list = name_picker(People)
 player = st.selectbox('Select a Hall of Famer',
                       ID_list.keys(), format_func=display_name)
 
-filtered_df = selector(People, player)
+filtered_HoF = selector(HoF, player)
+filtered_People = selector(People, player)
+filtered_Apps = selector(Apps, player)
 
-write_days(filtered_df)
+write_days(filtered_People)
 
-play_info(filtered_df)
+play_info(filtered_People)
 
-filtered_df
+filtered_People
