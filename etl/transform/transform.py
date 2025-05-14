@@ -10,6 +10,7 @@ def transform_HoF(HoF, People, Apps, Teams):
         HoF = row_manager(HoF, ID_list)
         People = row_manager(People, ID_list)
         Apps = row_manager(Apps, ID_list)
+        HoF = vpc(HoF)
         Apps = pd.merge(Apps, Teams, 'inner', on=['teamID', 'yearID'])
     except Exception as e:
         print(f"An error occurred in transform_HoF: {e}")
@@ -64,3 +65,11 @@ def row_manager(df, ID_list):
     except Exception as e:
         print(f"An error occurred in row_manager: {e}")
     return filtered_df
+
+
+def vpc(df):
+    try:
+        df['vote_share'] = (df['votes'] / df['ballots'])
+    except Exception as e:
+        print(f"An error occurred in vpc: {e}")
+    return df
