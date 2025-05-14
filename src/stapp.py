@@ -89,12 +89,10 @@ def play_info(df):
             st.metric(label='Height', value=f'{int(df['height'].iloc[0])}in')
             st.metric(label='Throws', value=f'{df['throws'].iloc[0]}')
             st.metric(label='Debut', value=f'{df['debut'].iloc[0]}')
-            #st.metric(label='First Team', value=f'{df['teamID'].iloc[0]}')
         with col2:
             st.metric(label='Weight', value=f'{int(df['weight'].iloc[0])}lbs')
             st.metric(label='Bats', value=f'{df['bats'].iloc[0]}')
             st.metric(label='Final Game', value=f'{df['finalGame'].iloc[0]}')
-            #st.metric(label='Last Team', value=f'{df['teamID'].iloc[-1]}')
 
     except Exception as e:
         print(f"An error occurred in play_info: {e}")
