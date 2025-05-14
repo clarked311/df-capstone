@@ -101,7 +101,6 @@ def play_info(df):
 HoF = pd.read_csv('data/output/trans_HoF.csv', encoding='ISO-8859-1')
 People = pd.read_csv('data/output/trans_People.csv', encoding='ISO-8859-1')
 Apps = pd.read_csv('data/output/trans_Apps.csv', encoding='ISO-8859-1')
-Teams = pd.read_csv('data/output/trans_Teams.csv', encoding='ISO-8859-1')
 
 st.title('MLB Hall of Fame')
 
@@ -118,4 +117,4 @@ write_days(filtered_People)
 
 play_info(filtered_People)
 
-filtered_People
+filtered_Apps
