@@ -9,57 +9,69 @@ def selector(df, player):
     try:
         return df[(df['playerID'] == player)]
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"An error occurred in selector: {e}")
 
 
 def display_name(opt):
     try:
         return ID_list[opt]
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"An error occurred in display_name: {e}")
 
 
 def write_days(df):
-    month_to_name = {
-        '1': 'January',
-        '2': 'February',
-        '3': 'March',
-        '4': 'April',
-        '5': 'May',
-        '6': 'June',
-        '7': 'July',
-        '8': 'August',
-        '9': 'September',
-        '10': 'October',
-        '11': 'November',
-        '12': 'December'
-    }
+    try:
+        month_to_name = {
+            '1': 'January',
+            '2': 'February',
+            '3': 'March',
+            '4': 'April',
+            '5': 'May',
+            '6': 'June',
+            '7': 'July',
+            '8': 'August',
+            '9': 'September',
+            '10': 'October',
+            '11': 'November',
+            '12': 'December'
+        }
 
-    bm = str(int(df['birthMonth'].iloc[0]))
-    bday = str(int(df['birthDay'].iloc[0])) + ' ' + month_to_name[bm] \
-        + ' ' + str(int(df['birthYear'].iloc[0]))
+        bm = str(int(df['birthMonth'].iloc[0]))
+        bday = str(int(df['birthDay'].iloc[0])) + ' ' + month_to_name[bm] \
+            + ' ' + str(int(df['birthYear'].iloc[0]))
 
-    st.write('Born: ', bday)
+        st.write('Born: ', bday)
 
-    death = ''
-    dd = df['deathDay'].iloc[0]
-    dm = df['deathMonth'].iloc[0]
-    dy = df['deathYear'].iloc[0]
+        death = ''
+        dd = df['deathDay'].iloc[0]
+        dm = df['deathMonth'].iloc[0]
+        dy = df['deathYear'].iloc[0]
 
-    if pd.notna(dd) or pd.notna(dm) or pd.notna(dy):
-        dds = ''
-        dms = ''
-        dys = ''
-        if pd.notna(dd):
-            dds = str(int(dd))
-        if pd.notna(dm):
-            dms = str(int(dm))
-            dms = month_to_name[dms]
-        if pd.notna(dy):
-            dys = str(int(dy))
-        death = dds + ' ' + dms + ' ' + dys
+        if pd.notna(dd) or pd.notna(dm) or pd.notna(dy):
+            dds = ''
+            dms = ''
+            dys = ''
+            if pd.notna(dd):
+                dds = str(int(dd))
+            if pd.notna(dm):
+                dms = str(int(dm))
+                dms = month_to_name[dms]
+            if pd.notna(dy):
+                dys = str(int(dy))
+            death = dds + ' ' + dms + ' ' + dys
+            
+        st.write('Died: ', death)
+    except Exception as e:
+        print(f"An error occurred in write_days: {e}")
 
-    st.write('Died: ', death)
+
+
+def play_info(df):
+    try:
+        pass
+    except Exception as e:
+        print(f"An error occurred in play_info: {e}")
+
 
 
 st.title('MLB Hall of Fame')
