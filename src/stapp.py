@@ -98,6 +98,13 @@ def play_info(df):
         print(f"An error occurred in play_info: {e}")
 
 
+def HoF_tracker(df):
+    try:
+        st.line_chart(data=df, x='yearid', y=['needed', 'votes'], x_label='year', y_label='votes', color=['#000000', '#0000FF'])
+    except Exception as e:
+        print(f"An error occurred in HoF_tracker: {e}")
+
+
 HoF = pd.read_csv('data/output/trans_HoF.csv', encoding='ISO-8859-1')
 People = pd.read_csv('data/output/trans_People.csv', encoding='ISO-8859-1')
 Apps = pd.read_csv('data/output/trans_Apps.csv', encoding='ISO-8859-1')
@@ -117,4 +124,8 @@ write_days(filtered_People)
 
 play_info(filtered_People)
 
+HoF_tracker(filtered_HoF)
+
 filtered_Apps
+
+filtered_HoF
