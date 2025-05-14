@@ -10,10 +10,11 @@ def etl_process():
         HoF = dfs[1]
         People = dfs[0]
         Apps = dfs[2]
+        Teams = dfs[3]
 
-        trans_data = transform_HoF(HoF, People, Apps)
+        trans_data = transform_HoF(HoF, People, Apps, Teams)
 
-        load_HoF(trans_data[0], trans_data[1], trans_data[2])
+        load_HoF(trans_data[0], trans_data[1], trans_data[2], trans_data[3])
     except Exception as e:
         print(f"An error occurred: {e}")
 
