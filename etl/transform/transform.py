@@ -70,7 +70,6 @@ def row_manager(df, ID_list):
 def vpc(df):
     try:
         df['vote_share'] = (df['votes'] / df['ballots'])
-        df.round({'vote_share':4})
     except Exception as e:
         print(f"An error occurred in vpc: {e}")
     return df
