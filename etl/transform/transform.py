@@ -36,14 +36,11 @@ def list_IDs(df):
     except Exception as e:
         print(f"An error occurred in ID_list setup: {e}")
     try:
-        cols_to_ret = ['playerID', 'nameFirst', 'nameLast']
-        mid_list = df.loc[df['inducted'] == 'Y', cols_to_ret]
+        mid_list = df.loc[df['inducted'] == 'Y', ['playerID']]
     except Exception as e:
         print(f"An error occurred in mid_list: {e}")
     try:
-        name = mid_list['nameFirst'] + ' ' + mid_list['nameLast']
-        ID_list = pd.Series(name.to_numpy(),
-                            index=mid_list['playerID']).to_dict()
+        ID_list = mid_list['playerID'].tolist()
     except Exception as e:
         print(f"An error occurred in ID_list allocation: {e}")
     return ID_list
