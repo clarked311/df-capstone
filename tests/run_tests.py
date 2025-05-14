@@ -8,7 +8,7 @@ TEST_CONFIG = {
     "unit": {"dir": "tests/unit_tests", "cov": ["config", "utils", "etl", "src"]},
     "integration": {"dir": "tests/integration_tests", "cov": ["etl"]},
     "component": {"dir": "tests/component_tests", "cov": ["etl"]},
-    "all": {"dir": "tests", "cov": ["config", "etl", "utils"]},
+    "all": {"dir": "tests", "cov": ["config", "etl", "utils", "src"]},
 }
 
 
