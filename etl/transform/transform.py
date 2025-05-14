@@ -9,11 +9,9 @@ def transform_HoF(HoF, People, Apps):
         HoF = row_manager(HoF, ID_list)
         People = row_manager(People, ID_list)
         Apps = row_manager(Apps, ID_list)
-        inter_data = HoF.merge(People, how='inner', copy=False)
-        trans_data = inter_data.merge(Apps, how='inner', copy=False)
     except Exception as e:
         print(f"An error occurred in transform_HoF: {e}")
-    return trans_data
+    return HoF, People, Apps
 
 
 def column_manager(df):
@@ -38,11 +36,14 @@ def list_IDs(df):
     except Exception as e:
         print(f"An error occurred in ID_list setup: {e}")
     try:
-        mid_list = df.loc[df['inducted'] == 'Y', ['playerID']]
+        cols_to_ret = ['playerID', 'nameFirst', 'nameLast']
+        mid_list = df.loc[df['inducted'] == 'Y', cols_to_ret]
     except Exception as e:
         print(f"An error occurred in mid_list: {e}")
     try:
-        ID_list = mid_list['playerID'].tolist()
+        name = mid_list['nameFirst'] + ' ' + mid_list['nameLast']
+        ID_list = pd.Series(name.to_numpy(),
+                            index=mid_list['playerID']).to_dict()
     except Exception as e:
         print(f"An error occurred in ID_list allocation: {e}")
     return ID_list
