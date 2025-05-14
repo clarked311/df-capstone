@@ -1,0 +1,357 @@
+,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deathYear,deathMonth,deathDay,deathCountry,deathState,deathCity,nameFirst,nameLast,nameGiven,weight,height,bats,throws,debut,finalGame
+1,aaronha01,1934.0,2.0,5.0,Mobile,USA,AL,2021.0,1.0,22.0,USA,GA,Atlanta,Hank,Aaron,Henry Louis,180.0,72.0,R,R,1954-04-13,1976-10-03
+202,alexape01,1887.0,2.0,26.0,Elba,USA,NE,1950.0,11.0,4.0,USA,NE,St. Paul,Pete,Alexander,Grover Cleveland,185.0,73.0,R,R,1911-04-15,1930-05-28
+281,alomaro01,1968.0,2.0,5.0,Ponce,P.R.,,,,,,,,Roberto,Alomar,Roberto,184.0,72.0,B,R,1988-04-22,2004-09-05
+294,alstowa01,1911.0,12.0,1.0,Venice,USA,OH,1984.0,10.0,1.0,USA,OH,Oxford,Walter,Alston,Walter Emmons,195.0,74.0,R,R,1936-09-27,1936-09-27
+399,andersp01,1934.0,2.0,22.0,Bridgewater,USA,SD,2010.0,11.0,4.0,USA,CA,Thousand Oaks,Sparky,Anderson,George Lee,170.0,69.0,R,R,1959-04-10,1959-09-27
+441,ansonca01,1852.0,4.0,17.0,Marshalltown,USA,IA,1922.0,4.0,14.0,USA,IL,Chicago,Cap,Anson,Adrian Constantine,227.0,72.0,R,R,1871-05-06,1897-10-03
+451,aparilu01,1934.0,4.0,29.0,Maracaibo,Venezuela,Zulia,,,,,,,Luis,Aparicio,Luis Ernesto,160.0,69.0,R,R,1956-04-17,1973-09-28
+460,applilu01,1907.0,4.0,2.0,High Point,USA,NC,1991.0,1.0,3.0,USA,GA,Cumming,Luke,Appling,Lucius Benjamin,183.0,70.0,R,R,1930-09-10,1950-10-01
+548,ashburi01,1927.0,3.0,19.0,Tilden,USA,NE,1997.0,9.0,9.0,USA,NY,New York,Richie,Ashburn,Don Richard,170.0,70.0,L,R,1948-04-20,1962-09-30
+615,averiea01,1902.0,5.0,21.0,Snohomish,USA,WA,1983.0,8.0,16.0,USA,WA,Everett,Earl,Averill,Howard Earl,172.0,69.0,L,R,1929-04-16,1941-04-25
+678,bagweje01,1968.0,5.0,27.0,Boston,USA,MA,,,,,,,Jeff,Bagwell,Jeffrey Robert,195.0,72.0,R,R,1991-04-08,2005-10-02
+704,baineha01,1959.0,3.0,15.0,Easton,USA,MD,,,,,,,Harold,Baines,Harold Douglas,175.0,74.0,L,L,1980-04-10,2001-09-27
+726,bakerfr01,1886.0,3.0,13.0,Trappe,USA,MD,1963.0,6.0,28.0,USA,MD,Trappe,Home Run,Baker,John Franklin,173.0,71.0,L,R,1908-09-21,1922-09-29
+787,bancrda01,1891.0,4.0,20.0,Sioux City,USA,IA,1972.0,10.0,9.0,USA,WI,Superior,Dave,Bancroft,David James,160.0,69.0,B,R,1915-04-14,1930-05-31
+800,bankser01,1931.0,1.0,31.0,Dallas,USA,TX,2015.0,1.0,23.0,USA,IL,Chicago,Ernie,Banks,Ernest,180.0,73.0,R,R,1953-09-17,1971-09-26
+861,barlial99,1915.0,4.0,2.0,Springfield,USA,IL,1995.0,12.0,27.0,USA,IL,Springfield,Al,Barlick,Albert Joseph,185.0,71.0,,,,
+944,barroed99,1868.0,5.0,10.0,Springfield,USA,IL,1953.0,12.0,15.0,USA,NY,Port Chester,Ed,Barrow,Edward Grant,,,,,,
+1142,becklja01,1867.0,8.0,4.0,Hannibal,USA,MO,1918.0,6.0,25.0,USA,MO,Kansas City,Jake,Beckley,Jacob Peter,200.0,70.0,L,L,1888-06-20,1907-06-15
+1205,bellco99,1903.0,5.0,17.0,Starkville,USA,MS,1991.0,3.0,7.0,USA,MO,St. Louis,Cool Papa,Bell,James Thomas,155.0,72.0,B,L,,
+1244,beltrad01,1979.0,4.0,7.0,Santo Domingo,D.R.,Distrito Nacional,,,,,,,Adrian,Beltre,Adrian,220.0,71.0,R,R,1998-06-24,2018-09-30
+1255,benchjo01,1947.0,12.0,7.0,Oklahoma City,USA,OK,,,,,,,Johnny,Bench,Johnny Lee,197.0,73.0,R,R,1967-08-28,1983-09-29
+1257,bendech01,1884.0,5.0,5.0,Crow Wing County,USA,MN,1954.0,5.0,22.0,USA,PA,Philadelphia,Charles,Bender,Charles Albert,185.0,74.0,R,R,1903-04-20,1925-07-21
+1360,berrayo01,1925.0,5.0,12.0,St. Louis,USA,MO,2015.0,9.0,22.0,USA,NJ,West Caldwell,Yogi,Berra,Lawrence Peter,185.0,67.0,L,R,1946-09-22,1965-05-09
+1450,biggicr01,1965.0,12.0,14.0,Smithtown,USA,NY,,,,,,,Craig,Biggio,Craig Alan,185.0,71.0,R,R,1988-06-26,2007-09-30
+1630,blylebe01,1951.0,4.0,6.0,Zeist,Netherlands,Utrecht,,,,,,,Bert,Blyleven,Rik Aalbert,200.0,75.0,R,R,1970-06-05,1992-10-04
+1664,boggswa01,1958.0,6.0,15.0,Omaha,USA,NE,,,,,,,Wade,Boggs,Wade Anthony,190.0,74.0,L,R,1982-04-10,1999-08-27
+1804,bottoji01,1900.0,4.0,23.0,Oglesby,USA,IL,1959.0,12.0,11.0,USA,MO,St. Louis,Jim,Bottomley,James Leroy,180.0,72.0,L,L,1922-08-18,1937-09-16
+1812,boudrlo01,1917.0,7.0,17.0,Harvey,USA,IL,2001.0,8.0,10.0,USA,IL,Olympia Fields,Lou,Boudreau,Louis,185.0,71.0,R,R,1938-09-09,1952-08-24
+1879,boyerke01,1931.0,5.0,20.0,Liberty,USA,MO,1982.0,9.0,7.0,USA,MO,St. Louis,Ken,Boyer,Kenton Lloyd,190.0,73.0,R,R,1955-04-12,1969-08-09
+2028,bresnro01,1879.0,6.0,11.0,Toledo,USA,OH,1944.0,12.0,4.0,USA,OH,Toledo,Roger,Bresnahan,Roger Philip,200.0,69.0,R,R,1897-08-27,1915-10-03
+2032,brettge01,1953.0,5.0,15.0,Glen Dale,USA,WV,,,,,,,George,Brett,George Howard,185.0,72.0,L,R,1973-08-02,1993-10-03
+2113,brocklo01,1939.0,6.0,18.0,El Dorado,USA,AR,2020.0,9.0,6.0,USA,MO,St. Louis,Lou,Brock,Louis Clark,170.0,71.0,L,L,1961-09-10,1979-09-30
+2149,broutda01,1858.0,5.0,8.0,Sylvan Lake,USA,NY,1932.0,8.0,2.0,USA,NJ,East Orange,Dan,Brouthers,Dennis Joseph,207.0,74.0,L,L,1879-06-23,1904-10-04
+2231,brownmo01,1876.0,10.0,19.0,Nyesville,USA,IN,1948.0,2.0,14.0,USA,IN,Terre Haute,Mordecai,Brown,Mordecai Peter Centennial,175.0,70.0,B,R,1903-04-19,1916-09-04
+2242,brownra99,1908.0,2.0,23.0,McDonald Township,USA,OH,1965.0,2.0,8.0,USA,OH,Dayton,Ray,Brown,Raymond Leslie,195.0,73.0,B,R,,
+2257,brownwi02,1915.0,6.0,26.0,Shreveport,USA,LA,1996.0,8.0,4.0,USA,TX,Houston,Willard,Brown,Willard Jessie,200.0,71.0,R,R,1947-07-19,1947-08-17
+2363,bulkemo99,1837.0,12.0,26.0,East Haddam,USA,CT,1922.0,11.0,6.0,USA,CT,Hartford,Morgan,Bulkeley,Morgan Gardner,,,,,,
+2381,bunniji01,1931.0,10.0,23.0,Southgate,USA,KY,2017.0,5.0,26.0,USA,KY,Edgewood,Jim,Bunning,James Paul David,190.0,75.0,R,R,1955-07-20,1971-09-03
+2423,burkeje01,1868.0,12.0,4.0,Wheeling,USA,WV,1953.0,5.0,27.0,USA,MA,Worcester,Jesse,Burkett,Jesse Cail,155.0,68.0,L,L,1890-04-22,1905-10-07
+2696,campabe01,1942.0,3.0,9.0,Pueblo Nuevo,Cuba,,,,,,,,Bert,Campaneris,Dagoberto,160.0,70.0,R,R,1964-07-23,1983-10-01
+2699,camparo01,1921.0,11.0,19.0,Philadelphia,USA,PA,1993.0,6.0,26.0,USA,CA,Woodland Hills,Roy,Campanella,Roy,190.0,69.0,R,R,1948-04-20,1957-09-29
+2801,carewro01,1945.0,10.0,1.0,Gatun,Panama,Canal Zone,,,,,,,Rod,Carew,Rodney Cline,170.0,72.0,L,R,1967-04-11,1985-10-05
+2803,careyma01,1890.0,1.0,11.0,Terre Haute,USA,IN,1976.0,5.0,30.0,USA,FL,Miami,Max,Carey,Max George,170.0,71.0,B,R,1910-10-03,1929-09-29
+2831,carltst01,1944.0,12.0,22.0,Miami,USA,FL,,,,,,,Steve,Carlton,Steven Norman,210.0,76.0,L,L,1965-04-12,1988-04-23
+2909,cartega01,1954.0,4.0,8.0,Culver City,USA,CA,2012.0,2.0,16.0,USA,FL,West Palm Beach,Gary,Carter,Gary Edmund,205.0,74.0,R,R,1974-09-16,1992-09-27
+2919,cartwal99,1820.0,4.0,17.0,New York,USA,NY,1892.0,7.0,12.0,USA,HI,Honolulu,Alexander,Cartwright,Alexander Joy,,,,,,
+3070,cepedor01,1937.0,9.0,17.0,Ponce,P.R.,,,,,,,,Orlando,Cepeda,Orlando Manuel,210.0,74.0,R,R,1958-04-15,1974-09-19
+3090,chadwhe99,1824.0,10.0,5.0,Exeter,United Kingdom,Devon,1908.0,4.0,20.0,USA,NY,Brooklyn,Henry,Chadwick,Henry,,,,,,
+3115,chancfr01,1876.0,9.0,9.0,Fresno,USA,CA,1924.0,9.0,15.0,USA,CA,Los Angeles,Frank,Chance,Frank Leroy,190.0,72.0,R,R,1898-04-29,1914-04-21
+3117,chandha99,1898.0,7.0,14.0,Corydon,USA,KY,1991.0,6.0,15.0,USA,KY,Versailles,Happy,Chandler,Albert Benjamin,,,,,,
+3153,charlos99,1896.0,10.0,14.0,Indianapolis,USA,IN,1954.0,10.0,5.0,USA,PA,Philadelphia,Oscar,Charleston,Oscar McKinley,185.0,68.0,L,L,,
+3183,chesbja01,1874.0,6.0,5.0,North Adams,USA,MA,1931.0,11.0,6.0,USA,MA,Conway,Jack,Chesbro,John Dwight,180.0,69.0,R,R,1899-07-12,1909-10-02
+3255,chylane99,1922.0,5.0,11.0,Olyphant,USA,PA,1982.0,2.0,17.0,USA,PA,Dunmore,Nestor,Chylak,Nestor George,190.0,72.0,,,,
+3321,clarkfr01,1872.0,10.0,3.0,Winterset,USA,IA,1960.0,8.0,14.0,USA,KS,Winfield,Fred,Clarke,Fred Clifford,165.0,70.0,L,R,1894-06-30,1915-09-23
+3336,clarkjo01,1861.0,7.0,1.0,Cambridge,USA,MA,1909.0,2.0,4.0,USA,MA,Belmont,John,Clarkson,John Gibson,155.0,70.0,R,R,1882-05-02,1894-07-12
+3398,clemero01,1934.0,8.0,18.0,Carolina,P.R.,,1972.0,12.0,31.0,P.R.,,San Juan,Roberto,Clemente,Roberto,175.0,71.0,R,R,1955-04-17,1972-10-03
+3447,cobbty01,1886.0,12.0,18.0,Narrows,USA,GA,1961.0,7.0,17.0,USA,GA,Atlanta,Ty,Cobb,Tyrus Raymond,175.0,73.0,L,R,1905-08-30,1928-09-11
+3453,cochrmi01,1903.0,4.0,6.0,Bridgewater,USA,MA,1962.0,6.0,28.0,USA,IL,Lake Forest,Mickey,Cochrane,Gordon Stanley,180.0,70.0,L,R,1925-04-14,1937-05-25
+3482,colavro01,1933.0,8.0,10.0,New York,USA,NY,,,,,,,Rocky,Colavito,Rocco Domenico,190.0,75.0,R,R,1955-09-10,1968-09-28
+3539,collied01,1887.0,5.0,2.0,Millerton,USA,NY,1951.0,3.0,25.0,USA,MA,Boston,Eddie,Collins,Edward Trowbridge,175.0,69.0,L,R,1906-09-17,1930-08-05
+3543,colliji01,1870.0,1.0,16.0,Niagara Falls,USA,NY,1943.0,3.0,6.0,USA,NY,Buffalo,Jimmy,Collins,James Joseph,178.0,69.0,R,R,1895-04-19,1908-08-29
+3580,combsea01,1899.0,5.0,14.0,Pebworth,USA,KY,1976.0,7.0,21.0,USA,KY,Richmond,Earle,Combs,Earle Bryan,185.0,72.0,L,R,1924-04-16,1935-09-29
+3586,comisch01,1859.0,8.0,15.0,Chicago,USA,IL,1931.0,10.0,26.0,USA,WI,Eagle River,Charlie,Comiskey,Charles Albert,180.0,72.0,R,R,1882-05-02,1894-09-12
+3612,conlajo01,1899.0,12.0,6.0,Chicago,USA,IL,1989.0,4.0,16.0,USA,AZ,Scottsdale,Jocko,Conlan,John Bertrand,165.0,67.0,L,L,1934-07-06,1935-09-29
+3647,connoro01,1857.0,7.0,1.0,Waterbury,USA,CT,1931.0,1.0,4.0,USA,CT,Waterbury,Roger,Connor,Roger,220.0,75.0,B,L,1880-05-01,1897-05-18
+3648,connoto01,1892.0,12.0,30.0,Boston,USA,MA,1966.0,5.0,14.0,USA,MA,Boston,Tom,Connolly,Thomas Francis,175.0,71.0,L,R,1915-05-12,1915-10-02
+3649,connoto99,1870.0,12.0,31.0,Manchester,United Kingdom,Manchester,1961.0,4.0,28.0,USA,MA,Natick,Tommy,Connolly,Thomas Henry,170.0,67.0,,,,
+3718,coopean99,1897.0,4.0,24.0,Waco,USA,TX,1941.0,6.0,3.0,USA,TX,Waco,Andy,Cooper,Andrew Lewis,220.0,74.0,R,L,,
+3856,covelst01,1889.0,7.0,13.0,Shamokin,USA,PA,1984.0,3.0,20.0,USA,IN,South Bend,Stan,Coveleski,Stanley Anthony,166.0,71.0,R,R,1912-09-10,1928-08-03
+3870,coxbo01,1941.0,5.0,21.0,Tulsa,USA,OK,,,,,,,Bobby,Cox,Robert Joe,180.0,71.0,R,R,1968-04-14,1969-10-01
+3939,crawfsa01,1880.0,4.0,18.0,Wahoo,USA,NE,1968.0,6.0,15.0,USA,CA,Hollywood,Sam,Crawford,Samuel Earl,190.0,72.0,L,L,1899-09-10,1917-09-16
+4001,cronijo01,1906.0,10.0,12.0,San Francisco,USA,CA,1984.0,9.0,7.0,USA,MA,Barnstable,Joe,Cronin,Joseph Edward,180.0,71.0,R,R,1926-04-29,1945-04-19
+4090,cuellmi01,1937.0,5.0,8.0,Las Villas,Cuba,,2010.0,4.0,2.0,USA,FL,Orlando,Mike,Cuellar,Miguel Angel,165.0,72.0,L,L,1959-04-18,1977-05-03
+4113,cummica01,1848.0,10.0,18.0,Ware,USA,MA,1924.0,5.0,16.0,USA,OH,Toledo,Candy,Cummings,William Arthur,120.0,69.0,R,R,1872-04-22,1877-08-18
+4170,cuyleki01,1898.0,8.0,30.0,Harrisville,USA,MI,1950.0,2.0,11.0,USA,MI,Ann Arbor,Kiki,Cuyler,Hazen Shirley,180.0,70.0,R,R,1921-09-29,1938-09-14
+4230,dandrra99,1913.0,8.0,31.0,Richmond,USA,VA,1994.0,2.0,12.0,USA,FL,Palm Bay,Ray,Dandridge,Raymond Emmett,175.0,65.0,R,R,,
+4344,davisge01,1870.0,8.0,23.0,Cohoes,USA,NY,1940.0,10.0,17.0,USA,PA,Philadelphia,George,Davis,George Stacey,180.0,69.0,B,R,1890-04-19,1909-08-15
+4402,dawsoan01,1954.0,7.0,10.0,Miami,USA,FL,,,,,,,Andre,Dawson,Andre Nolan,180.0,75.0,R,R,1976-09-11,1996-09-29
+4411,dayle99,1916.0,10.0,30.0,Alexandria,USA,VA,1995.0,3.0,13.0,USA,MD,Baltimore,Leon,Day,Leon,170.0,69.0,R,R,,
+4426,deandi01,1910.0,1.0,16.0,Lucas,USA,AR,1974.0,7.0,17.0,USA,NV,Reno,Dizzy,Dean,Jay Hanna,182.0,74.0,R,R,1930-09-28,1947-09-28
+4501,delahed01,1867.0,10.0,30.0,Cleveland,USA,OH,1903.0,7.0,2.0,CAN,ON,Niagara Falls,Ed,Delahanty,Edward James,170.0,73.0,R,R,1888-05-22,1903-06-25
+4705,dickebi01,1907.0,6.0,6.0,Bastrop,USA,LA,1993.0,11.0,12.0,USA,AR,Little Rock,Bill,Dickey,William Malcolm,185.0,73.0,L,R,1928-08-15,1946-09-08
+4743,dihigma99,1905.0,5.0,25.0,Cidra,Cuba,Matanzas,1971.0,5.0,20.0,Cuba,Las Villas,Cienfuegos,Martin,Dihigo,Martin Magdaleno,195.0,74.0,R,R,,
+4761,dimagjo01,1914.0,11.0,25.0,Martinez,USA,CA,1999.0,3.0,8.0,USA,FL,Hollywood,Joe,DiMaggio,Joseph Paul,193.0,74.0,R,R,1936-05-03,1951-09-30
+4806,dobyla01,1923.0,12.0,13.0,Camden,USA,SC,2003.0,6.0,18.0,USA,NJ,Montclair,Larry,Doby,Lawrence Eugene,180.0,73.0,L,R,1947-07-05,1959-07-26
+4815,doerrbo01,1918.0,4.0,7.0,Los Angeles,USA,CA,2017.0,11.0,13.0,USA,OR,Junction City,Bobby,Doerr,Robert Pershing,175.0,71.0,R,R,1937-04-20,1951-09-07
+5004,dreyfba99,1865.0,2.0,23.0,Freiburg,Germany,Baden-Wurttemberg,1932.0,2.0,5.0,USA,NY,New York,Barney,Dreyfuss,Barney,,,,,,
+5022,drysddo01,1936.0,7.0,23.0,Van Nuys,USA,CA,1993.0,7.0,3.0,CAN,QC,Montreal,Don,Drysdale,Donald Scott,190.0,77.0,R,R,1956-04-17,1969-08-05
+5051,duffyhu01,1866.0,11.0,26.0,Cranston,USA,RI,1954.0,10.0,19.0,USA,MA,Boston,Hugh,Duffy,Hugh,168.0,67.0,R,R,1888-06-23,1906-04-13
+5147,durocle01,1905.0,7.0,27.0,West Springfield,USA,MA,1991.0,10.0,7.0,USA,CA,Palm Springs,Leo,Durocher,Leo Ernest,160.0,70.0,R,R,1925-10-02,1945-04-18
+5229,eckerde01,1954.0,10.0,3.0,Oakland,USA,CA,,,,,,,Dennis,Eckersley,Dennis Lee,190.0,74.0,R,R,1975-04-12,1998-09-26
+5516,evansbi99,1884.0,2.0,10.0,Chicago,USA,IL,1956.0,1.0,23.0,USA,FL,Miami,Billy,Evans,William George,205.0,71.0,,,,
+5539,eversjo01,1881.0,7.0,21.0,Troy,USA,NY,1947.0,3.0,28.0,USA,NY,Albany,Johnny,Evers,John Joseph,125.0,69.0,L,R,1902-09-01,1929-10-06
+5544,ewingbu01,1859.0,10.0,17.0,Hoagland,USA,OH,1906.0,10.0,20.0,USA,OH,Cincinnati,Buck,Ewing,William,188.0,70.0,R,R,1880-09-09,1897-05-27
+5555,faberre01,1888.0,9.0,6.0,Cascade,USA,IA,1976.0,9.0,25.0,USA,IL,Chicago,Red,Faber,Urban Clarence,180.0,74.0,B,R,1914-04-17,1933-09-20
+5675,fellebo01,1918.0,11.0,3.0,Van Meter,USA,IA,2010.0,12.0,15.0,USA,OH,Cleveland,Bob,Feller,Robert William Andrew,185.0,72.0,R,R,1936-07-19,1956-09-30
+5718,ferreri01,1905.0,10.0,12.0,Durham,USA,NC,1995.0,7.0,27.0,USA,MI,Bloomfield Hills,Rick,Ferrell,Richard Benjamin,160.0,70.0,R,R,1929-04-19,1947-09-14
+5786,fingero01,1946.0,8.0,25.0,Steubenville,USA,OH,,,,,,,Rollie,Fingers,Roland Glen,190.0,76.0,R,R,1968-09-15,1985-09-17
+5846,fiskca01,1947.0,12.0,26.0,Bellows Falls,USA,VT,,,,,,,Carlton,Fisk,Carlton Ernest,200.0,75.0,R,R,1969-09-18,1993-06-22
+5915,flickel01,1876.0,1.0,11.0,Bedford,USA,OH,1971.0,1.0,9.0,USA,OH,Bedford,Elmer,Flick,Elmer Harrison,168.0,69.0,L,R,1898-04-26,1910-07-04
+6012,fordwh01,1928.0,10.0,21.0,New York,USA,NY,2020.0,10.0,8.0,USA,NY,Lake Success,Whitey,Ford,Edward Charles,178.0,70.0,L,L,1950-07-01,1967-05-21
+6038,fostebi99,1904.0,6.0,12.0,Calvert,USA,TX,1978.0,9.0,16.0,USA,MS,Lorman,Bill,Foster,William Hendrick,190.0,72.0,B,L,,
+6054,fosteru99,1879.0,9.0,17.0,La Grange,USA,TX,1930.0,12.0,9.0,USA,IL,Kankakee,Rube,Foster,Andrew Bishop,230.0,69.0,R,R,,
+6084,foxne01,1927.0,12.0,25.0,St. Thomas,USA,PA,1975.0,12.0,1.0,USA,MD,Baltimore,Nellie,Fox,Jacob Nelson,160.0,70.0,L,R,1947-06-08,1965-07-25
+6088,foxxji01,1907.0,10.0,22.0,Sudlersville,USA,MD,1967.0,7.0,21.0,USA,FL,Miami,Jimmie,Foxx,James Emory,195.0,72.0,R,R,1925-05-01,1945-09-23
+6196,frickfo99,1894.0,12.0,19.0,Wawaka,USA,IN,1978.0,4.0,8.0,USA,NY,Bronxville,Ford,Frick,Ford Christopher,,,,,,
+6216,friscfr01,1897.0,9.0,9.0,Bronx,USA,NY,1973.0,3.0,12.0,USA,DE,Wilmington,Frankie,Frisch,Frank Francis,165.0,71.0,B,R,1919-06-17,1937-08-05
+6365,galvipu01,1856.0,12.0,25.0,St. Louis,USA,MO,1902.0,3.0,7.0,USA,PA,Pittsburgh,Pud,Galvin,James Francis,190.0,68.0,R,R,1875-05-22,1892-08-02
+6516,garvest01,1948.0,12.0,22.0,Tampa,USA,FL,,,,,,,Steve,Garvey,Steven Patrick,192.0,70.0,R,R,1969-09-01,1987-05-23
+6570,gehrich01,1903.0,5.0,11.0,Fowlerville,USA,MI,1993.0,1.0,21.0,USA,MI,Bloomfield Hills,Charlie,Gehringer,Charles Leonard,180.0,71.0,L,R,1924-09-22,1942-09-27
+6572,gehrilo01,1903.0,6.0,19.0,New York,USA,NY,1941.0,6.0,2.0,USA,NY,Bronx,Lou,Gehrig,Henry Louis,200.0,72.0,L,L,1923-06-15,1939-04-30
+6658,gibsobo01,1935.0,11.0,9.0,Omaha,USA,NE,2020.0,10.0,2.0,USA,NE,Omaha,Bob,Gibson,Robert,189.0,73.0,R,R,1959-04-15,1975-09-03
+6665,gibsojo99,1911.0,12.0,21.0,Buena Vista,USA,GA,1947.0,1.0,20.0,USA,PA,Pittsburgh,Josh,Gibson,Joshua,220.0,73.0,R,R,,
+6710,gileswa99,1896.0,5.0,28.0,Tiskilwa,USA,IL,1979.0,2.0,7.0,USA,OH,Cincinnati,Warren,Giles,Warren Crandall,,,,,,
+6741,gillipa99,1937.0,8.0,22.0,Chico,USA,CA,,,,,,,Pat,Gillick,Lawrence Patrick D.,185.0,73.0,L,L,,
+6799,glavito02,1966.0,3.0,25.0,Concord,USA,MA,,,,,,,Tom,Glavine,Thomas Michael,175.0,72.0,L,L,1987-08-17,2008-08-14
+6888,gomezle01,1908.0,11.0,26.0,Rodeo,USA,CA,1989.0,2.0,17.0,USA,CA,Greenbrae,Lefty,Gomez,Vernon Louis,173.0,74.0,L,L,1930-04-29,1943-05-30
+6987,gordojo01,1915.0,2.0,18.0,Los Angeles,USA,CA,1978.0,4.0,14.0,USA,CA,Sacramento,Joe,Gordon,Joseph Lowell,180.0,70.0,R,R,1938-04-18,1950-09-30
+7017,gosligo01,1900.0,10.0,16.0,Salem,USA,NJ,1971.0,5.0,15.0,USA,NJ,Bridgeton,Goose,Goslin,Leon Allen,185.0,71.0,L,R,1921-09-16,1938-09-25
+7019,gossari01,1951.0,7.0,5.0,Colorado Springs,USA,CO,,,,,,,Rich,Gossage,Richard Michael,180.0,75.0,R,R,1972-04-16,1994-08-08
+7091,grantfr99,1865.0,8.0,1.0,Pittsfield,USA,MA,1937.0,5.0,27.0,USA,NY,New York,Frank,Grant,Ulysses Franklin,155.0,67.0,R,R,,
+7155,greenha01,1911.0,1.0,1.0,New York,USA,NY,1986.0,9.0,4.0,USA,CA,Beverly Hills,Hank,Greenberg,Henry Benjamin,210.0,75.0,R,R,1930-09-14,1947-09-18
+7220,griffcl01,1869.0,11.0,20.0,Clear Creek,USA,MO,1955.0,10.0,27.0,USA,DC,Washington,Clark,Griffith,Clark Calvin,156.0,66.0,R,R,1891-04-11,1914-10-07
+7230,griffke02,1969.0,11.0,21.0,Donora,USA,PA,,,,,,,Ken,Griffey,George Kenneth,195.0,75.0,L,L,1989-04-03,2010-05-31
+7248,grimebu01,1893.0,8.0,18.0,Emerald,USA,WI,1985.0,12.0,6.0,USA,WI,Clear Lake,Burleigh,Grimes,Burleigh Arland,175.0,70.0,R,R,1916-09-10,1934-09-20
+7297,grovele01,1900.0,3.0,6.0,Lonaconing,USA,MD,1975.0,5.0,22.0,USA,OH,Norwalk,Lefty,Grove,Robert Moses,190.0,75.0,L,L,1925-04-14,1941-09-28
+7338,guerrvl01,1975.0,2.0,9.0,Nizao,D.R.,Peravia,,,,,,,Vladimir,Guerrero,Vladimir,235.0,75.0,R,R,1996-09-19,2011-09-28
+7415,gwynnto01,1960.0,5.0,9.0,Los Angeles,USA,CA,2014.0,6.0,16.0,USA,CA,Poway,Tony,Gwynn,Anthony Keith,185.0,71.0,L,L,1982-07-19,2001-10-07
+7449,hafeych01,1903.0,2.0,12.0,Berkeley,USA,CA,1973.0,7.0,2.0,USA,CA,Calistoga,Chick,Hafey,Charles James,185.0,72.0,R,R,1924-08-28,1937-09-30
+7474,haineje01,1893.0,7.0,22.0,Clayton,USA,OH,1978.0,8.0,5.0,USA,OH,Dayton,Jesse,Haines,Jesse Joseph,190.0,72.0,R,R,1918-07-20,1937-09-10
+7504,hallaro01,1977.0,5.0,14.0,Denver,USA,CO,2017.0,11.0,7.0,USA,FL,Holiday,Roy,Halladay,Harry Leroy,225.0,78.0,R,R,1998-09-20,2013-09-23
+7555,hamilbi01,1866.0,2.0,15.0,Newark,USA,NJ,1940.0,12.0,15.0,USA,MA,Worcester,Billy,Hamilton,William Robert,165.0,66.0,L,L,1888-07-31,1901-09-16
+7623,hanlone01,1857.0,8.0,22.0,Montville,USA,CT,1937.0,4.0,14.0,USA,MD,Baltimore,Ned,Hanlon,Edward Hugh,170.0,69.0,L,R,1880-05-01,1892-09-15
+7734,harribu01,1896.0,11.0,8.0,Port Jervis,USA,NY,1977.0,11.0,8.0,USA,MD,Bethesda,Bucky,Harris,Stanley Raymond,156.0,69.0,R,R,1919-08-28,1931-06-12
+7776,harriwi99,1881.0,10.0,16.0,Chicago,USA,IL,1971.0,4.0,9.0,USA,IL,Evanston,Will,Harridge,William,,,,,,
+7810,hartnga01,1900.0,12.0,20.0,Woonsocket,USA,RI,1972.0,12.0,20.0,USA,IL,Park Ridge,Gabby,Hartnett,Charles Leo,195.0,73.0,R,R,1922-04-12,1941-09-24
+7822,harvedo99,1930.0,3.0,3.0,South Gate,USA,CA,2018.0,1.0,13.0,USA,CA,Visalia,Doug,Harvey,Harold Douglas,195.0,74.0,,,,
+7986,heilmha01,1894.0,8.0,3.0,San Francisco,USA,CA,1951.0,7.0,9.0,USA,MI,Southfield,Harry,Heilmann,Harry Edwin,195.0,73.0,R,R,1914-05-16,1932-05-31
+8024,heltoto01,1973.0,8.0,20.0,Knoxville,USA,TN,,,,,,,Todd,Helton,Todd Lynn,220.0,74.0,L,L,1997-08-02,2013-09-29
+8048,henderi01,1958.0,12.0,25.0,Chicago,USA,IL,,,,,,,Rickey,Henderson,Rickey Nelson Henley,180.0,70.0,R,L,1979-06-24,2003-09-19
+8129,hermabi01,1909.0,7.0,7.0,New Albany,USA,IN,1992.0,9.0,5.0,USA,FL,West Palm Beach,Billy,Herman,William Jennings Bryan,180.0,71.0,R,R,1931-08-29,1947-08-01
+8233,herzowh01,1931.0,11.0,9.0,New Athens,USA,IL,,,,,,,Whitey,Herzog,Dorrel Norman Elvert,182.0,71.0,L,L,1956-04-17,1963-09-28
+8350,hillpe99,1882.0,10.0,12.0,Culpeper,USA,VA,1951.0,11.0,19.0,USA,NY,Buffalo,Pete,Hill,John Preston,170.0,69.0,L,R,,
+8419,hodgegi01,1924.0,4.0,4.0,Princeton,USA,IN,1972.0,4.0,2.0,USA,FL,West Palm Beach,Gil,Hodges,Gilbert Ray,200.0,73.0,R,R,1943-10-03,1963-05-05
+8458,hoffmtr01,1967.0,10.0,13.0,Bellflower,USA,CA,,,,,,,Trevor,Hoffman,Trevor William,200.0,73.0,R,R,1993-04-06,2010-09-29
+8574,hoopeha01,1887.0,8.0,24.0,Bell Station,USA,CA,1974.0,12.0,18.0,USA,CA,Santa Cruz,Harry,Hooper,Harry Bartholomew,168.0,70.0,L,R,1909-04-16,1925-10-04
+8607,hornsro01,1896.0,4.0,27.0,Winters,USA,TX,1963.0,1.0,5.0,USA,IL,Chicago,Rogers,Hornsby,Rogers,175.0,71.0,R,R,1915-09-10,1937-07-20
+8712,hoytwa01,1899.0,9.0,9.0,Brooklyn,USA,NY,1984.0,8.0,25.0,USA,OH,Cincinnati,Waite,Hoyt,Waite Charles,180.0,72.0,R,R,1918-07-24,1938-05-15
+8718,hubbaca99,1900.0,10.0,31.0,Keytesville,USA,MO,1977.0,10.0,17.0,USA,FL,Gulfport,Cal,Hubbard,Robert Calvin,260.0,75.0,,,,
+8723,hubbeca01,1903.0,6.0,22.0,Carthage,USA,MO,1988.0,11.0,21.0,USA,AZ,Scottsdale,Carl,Hubbell,Carl Owen,170.0,72.0,R,L,1928-07-26,1943-08-24
+8765,huggimi01,1878.0,3.0,27.0,Cincinnati,USA,OH,1929.0,9.0,25.0,USA,NY,New York,Miller,Huggins,Miller James,140.0,66.0,B,R,1904-04-15,1916-09-13
+8798,hulbewi99,1832.0,10.0,23.0,Burlington Flats,USA,NY,1882.0,4.0,10.0,USA,IL,Chicago,William,Hulbert,William A.,,,,,,
+8834,hunteca01,1946.0,4.0,8.0,Hertford,USA,NC,1999.0,9.0,9.0,USA,NC,Hertford,Catfish,Hunter,James Augustus,190.0,72.0,R,R,1965-05-13,1979-09-17
+8940,irvinmo01,1919.0,2.0,25.0,Haleburg,USA,AL,2016.0,1.0,11.0,USA,TX,Houston,Monte,Irvin,Monford Merrill,195.0,73.0,R,R,1949-07-08,1956-09-30
+8995,jacksre01,1946.0,5.0,18.0,Abington,USA,PA,,,,,,,Reggie,Jackson,Reginald Martinez,195.0,72.0,L,L,1967-06-09,1987-10-04
+9004,jackstr01,1903.0,11.0,2.0,Waldo,USA,AR,1987.0,7.0,27.0,USA,AR,Waldo,Travis,Jackson,Travis Calvin,160.0,70.0,R,R,1922-09-27,1936-09-24
+9109,jenkife01,1942.0,12.0,13.0,Chatham,CAN,ON,,,,,,,Fergie,Jenkins,Ferguson Arthur,205.0,77.0,R,R,1965-09-10,1983-09-26
+9123,jennihu01,1869.0,4.0,2.0,Pittston,USA,PA,1928.0,2.0,1.0,USA,PA,Scranton,Hughie,Jennings,Hugh Ambrose,165.0,68.0,R,R,1891-06-01,1918-09-02
+9138,jeterde01,1974.0,6.0,26.0,Pequannock,USA,NJ,,,,,,,Derek,Jeter,Derek Sanderson,195.0,75.0,R,R,1995-05-29,2014-09-28
+9178,johnsba99,1865.0,1.0,5.0,Norwalk,USA,OH,1931.0,3.0,28.0,USA,MO,St. Louis,Ban,Johnson,Byron Bancroft,,,,,,
+9247,johnsju99,1899.0,12.0,26.0,Snow Hill,USA,MD,1989.0,6.0,15.0,USA,DE,Wilmington,Judy,Johnson,William Julius,150.0,71.0,R,R,,
+9276,johnsra05,1963.0,9.0,10.0,Walnut Creek,USA,CA,,,,,,,Randy,Johnson,Randall David,225.0,82.0,R,L,1988-09-15,2009-10-04
+9299,johnswa01,1887.0,11.0,6.0,Humboldt,USA,KS,1946.0,12.0,10.0,USA,DC,Washington,Walter,Johnson,Walter Perry,200.0,73.0,R,R,1907-08-02,1927-09-30
+9334,jonesch06,1972.0,4.0,24.0,DeLand,USA,FL,,,,,,,Chipper,Jones,Larry Wayne,210.0,76.0,B,R,1993-09-11,2012-10-03
+9451,jossad01,1880.0,4.0,12.0,Woodland,USA,WI,1911.0,4.0,14.0,USA,OH,Toledo,Addie,Joss,Adrian,185.0,75.0,R,R,1902-04-26,1910-07-25
+9495,kaatji01,1938.0,11.0,7.0,Zeeland,USA,MI,,,,,,,Jim,Kaat,James Lee,205.0,76.0,L,L,1959-08-02,1983-07-01
+9515,kalinal01,1934.0,12.0,19.0,Baltimore,USA,MD,2020.0,4.0,6.0,USA,MI,Bloomfield Hills,Al,Kaline,Albert William,175.0,73.0,R,R,1953-06-25,1974-10-02
+9601,keefeti01,1857.0,1.0,1.0,Cambridge,USA,MA,1933.0,4.0,23.0,USA,MA,Cambridge,Tim,Keefe,Timothy John,185.0,70.0,R,R,1880-08-06,1893-08-15
+9605,keelewi01,1872.0,3.0,3.0,Brooklyn,USA,NY,1923.0,1.0,1.0,USA,NY,Brooklyn,Willie,Keeler,William Henry,140.0,64.0,L,L,1892-09-30,1910-09-05
+9638,kellejo01,1871.0,12.0,9.0,Cambridge,USA,MA,1943.0,8.0,14.0,USA,MD,Baltimore,Joe,Kelley,Joseph James,190.0,71.0,R,R,1891-07-27,1908-10-03
+9650,kellge01,1922.0,8.0,23.0,Swifton,USA,AR,2009.0,3.0,24.0,USA,AR,Swifton,George,Kell,George Clyde,175.0,69.0,R,R,1943-09-28,1957-09-14
+9669,kellyge01,1895.0,9.0,10.0,San Francisco,USA,CA,1984.0,10.0,13.0,USA,CA,Burlingame,George,Kelly,George Lange,190.0,76.0,R,R,1915-08-18,1932-07-26
+9678,kellyki01,1857.0,12.0,31.0,Troy,USA,NY,1894.0,11.0,8.0,USA,MA,Boston,King,Kelly,Michael Joseph,170.0,70.0,R,R,1878-05-01,1893-09-02
+9819,killeha01,1936.0,6.0,29.0,Payette,USA,ID,2011.0,5.0,17.0,USA,AZ,Scottsdale,Harmon,Killebrew,Harmon Clayton,195.0,72.0,R,R,1954-06-23,1975-09-26
+9846,kinerra01,1922.0,10.0,27.0,Santa Rita,USA,NM,2014.0,2.0,6.0,USA,CA,Rancho Mirage,Ralph,Kiner,Ralph McPherran,195.0,74.0,R,R,1946-04-16,1955-09-25
+9934,kleinch01,1904.0,10.0,7.0,Indianapolis,USA,IN,1958.0,3.0,28.0,USA,IN,Indianapolis,Chuck,Klein,Charles Herbert,185.0,72.0,L,R,1928-07-30,1944-06-11
+9941,klembi99,1874.0,2.0,22.0,Rochester,USA,NY,1951.0,9.0,16.0,USA,FL,Miami,Bill,Klem,William Joseph,157.0,65.0,,,,
+9970,kluszte01,1924.0,9.0,10.0,Argo,USA,IL,1988.0,3.0,29.0,USA,OH,Cincinnati,Ted,Kluszewski,Theodore Bernard,225.0,74.0,L,L,1947-04-18,1961-10-01
+10113,koufasa01,1935.0,12.0,30.0,Brooklyn,USA,NY,,,,,,,Sandy,Koufax,Sanford,210.0,74.0,R,L,1955-06-24,1966-10-02
+10217,kuhnbo99,1926.0,10.0,28.0,Takoma Park,USA,MD,2007.0,3.0,15.0,USA,FL,Jacksonville,Bowie,Kuhn,Bowie Kent,,,,,,
+10293,lajoina01,1874.0,9.0,5.0,Woonsocket,USA,RI,1959.0,2.0,7.0,USA,FL,Daytona Beach,Nap,Lajoie,Napoleon,195.0,73.0,R,R,1896-08-12,1916-08-26
+10346,landike99,1866.0,11.0,20.0,Millville,USA,OH,1944.0,11.0,25.0,USA,IL,Chicago,Kenesaw,Landis,Kenesaw Mountain,,,,,,
+10406,larkiba01,1964.0,4.0,28.0,Cincinnati,USA,OH,,,,,,,Barry,Larkin,Barry Louis,185.0,72.0,R,R,1986-08-13,2004-10-03
+10430,larusto01,1944.0,10.0,4.0,Tampa,USA,FL,,,,,,,Tony,LaRussa,Anthony,175.0,72.0,R,R,1963-05-10,1973-04-06
+10437,lasorto01,1927.0,9.0,22.0,Norristown,USA,PA,2021.0,1.0,7.0,USA,CA,Fullerton,Tom,Lasorda,Thomas Charles,175.0,70.0,L,L,1954-08-05,1956-07-08
+10507,lazzeto01,1903.0,12.0,6.0,San Francisco,USA,CA,1946.0,8.0,6.0,USA,CA,San Francisco,Tony,Lazzeri,Anthony Michael,170.0,71.0,R,R,1926-04-13,1939-06-07
+10635,lemonbo01,1920.0,9.0,22.0,San Bernardino,USA,CA,2000.0,1.0,11.0,USA,CA,Long Beach,Bob,Lemon,Robert Granville,180.0,72.0,L,R,1941-09-09,1958-07-01
+10649,leonabu99,1907.0,9.0,8.0,Rocky Mount,USA,NC,1997.0,11.0,27.0,USA,NC,Rocky Mount,Buck,Leonard,Walter Fenner,185.0,70.0,L,L,,
+10735,leylaji99,1944.0,12.0,15.0,Toledo,USA,OH,,,,,,,Jim,Leyland,James Richard,175.0,71.0,R,R,,
+10802,lindsfr01,1905.0,11.0,21.0,Chicago,USA,IL,1981.0,10.0,4.0,USA,IL,Chicago,Freddie,Lindstrom,Frederick Charles,170.0,71.0,R,R,1924-04-15,1936-05-15
+10874,lloydpo99,1884.0,4.0,25.0,Palatka,USA,FL,1964.0,3.0,19.0,USA,NJ,Atlantic City,John Henry,Lloyd,John Henry,180.0,71.0,L,R,,
+10925,lolicmi01,1940.0,9.0,12.0,Portland,USA,OR,,,,,,,Mickey,Lolich,Michael Stephen,170.0,73.0,B,L,1963-05-12,1979-09-23
+10932,lombaer01,1908.0,4.0,6.0,Oakland,USA,CA,1977.0,9.0,26.0,USA,CA,Santa Cruz,Ernie,Lombardi,Ernesto Natali,230.0,75.0,R,R,1931-04-15,1947-09-17
+10976,lopezal01,1908.0,8.0,20.0,Tampa,USA,FL,2005.0,10.0,30.0,USA,FL,Tampa,Al,Lopez,Alfonso Ramon,165.0,71.0,R,R,1928-09-27,1947-09-16
+11182,lyonste01,1900.0,12.0,28.0,Lake Charles,USA,LA,1986.0,7.0,25.0,USA,LA,Sulphur,Ted,Lyons,Theodore Amar,200.0,71.0,B,R,1923-07-02,1946-05-19
+11223,mackco01,1862.0,12.0,22.0,East Brookfield,USA,MA,1956.0,2.0,8.0,USA,PA,Philadelphia,Connie,Mack,Cornelius Alexander,150.0,73.0,R,R,1886-09-11,1896-08-29
+11226,mackebi99,1897.0,7.0,27.0,Caldwell County,USA,TX,1965.0,9.0,22.0,USA,CA,Los Angeles,Biz,Mackey,James Raleigh,235.0,73.0,B,R,,
+11247,macphla99,1890.0,2.0,3.0,Cass City,USA,MI,1975.0,10.0,1.0,USA,FL,Miami,Larry,MacPhail,Leland Stanford,,,,,,
+11248,macphle99,1917.0,10.0,25.0,Nashville,USA,TN,2012.0,11.0,8.0,USA,FL,Delray Beach,Lee,MacPhail,Leland Stanford,,,,,,
+11269,maddugr01,1966.0,4.0,14.0,San Angelo,USA,TX,,,,,,,Greg,Maddux,Gregory Alan,170.0,72.0,R,R,1986-09-03,2008-09-27
+11421,manleef99,1897.0,3.0,27.0,Philadelphia,USA,PA,1981.0,4.0,16.0,USA,CA,Los Angeles,Effa,Manley,Effa,,,,,,
+11453,mantlmi01,1931.0,10.0,20.0,Spavinaw,USA,OK,1995.0,8.0,13.0,USA,TX,Dallas,Mickey,Mantle,Mickey Charles,195.0,71.0,B,R,1951-04-17,1968-09-28
+11461,manushe01,1901.0,7.0,20.0,Tuscumbia,USA,AL,1971.0,5.0,12.0,USA,FL,Sarasota,Heinie,Manush,Henry Emmett,200.0,73.0,L,L,1923-04-20,1939-05-22
+11474,maranra01,1891.0,11.0,11.0,Springfield,USA,MA,1954.0,1.0,5.0,USA,NY,New York,Rabbit,Maranville,Walter James Vincent,155.0,65.0,R,R,1912-09-10,1935-09-29
+11486,maricju01,1937.0,10.0,20.0,Laguna Verde,D.R.,Monte Cristi,,,,,,,Juan,Marichal,Juan Antonio,185.0,72.0,R,R,1960-07-19,1975-04-16
+11495,marisro01,1934.0,9.0,10.0,Hibbing,USA,MN,1985.0,12.0,14.0,USA,TX,Houston,Roger,Maris,Roger Eugene,197.0,72.0,L,R,1957-04-16,1968-09-29
+11524,marquru01,1886.0,10.0,9.0,Cleveland,USA,OH,1980.0,6.0,1.0,USA,MD,Baltimore,Rube,Marquard,Richard William,180.0,75.0,B,L,1908-09-25,1925-09-18
+11598,martied01,1963.0,1.0,2.0,New York,USA,NY,,,,,,,Edgar,Martinez,Edgar,175.0,72.0,R,R,1987-09-12,2004-10-03
+11640,martipe02,1971.0,10.0,25.0,Manoguayabo,D.R.,Distrito Nacional,,,,,,,Pedro,Martinez,Pedro Jaime,170.0,71.0,R,R,1992-09-24,2009-09-30
+11710,mathech01,1880.0,8.0,12.0,Factoryville,USA,PA,1925.0,10.0,7.0,USA,NY,Saranac Lake,Christy,Mathewson,Christopher,195.0,73.0,R,R,1900-07-17,1916-09-04
+11711,matheed01,1931.0,10.0,13.0,Texarkana,USA,TX,2001.0,2.0,18.0,USA,CA,La Jolla,Eddie,Mathews,Edwin Lee,190.0,73.0,L,R,1952-04-15,1968-09-27
+11774,mauerjo01,1983.0,4.0,19.0,St. Paul,USA,MN,,,,,,,Joe,Mauer,Joseph Patrick,225.0,77.0,L,R,2004-04-05,2018-09-30
+11817,mayle01,1943.0,3.0,23.0,Birmingham,USA,AL,2017.0,7.0,29.0,USA,OH,Cincinnati,Lee,May,Lee Andrew,195.0,75.0,R,R,1965-09-01,1982-09-24
+11833,mayswi01,1931.0,5.0,6.0,Westfield,USA,AL,,,,,,,Willie,Mays,Willie Howard,170.0,70.0,R,R,1951-05-25,1973-09-09
+11839,mazerbi01,1936.0,9.0,5.0,Wheeling,USA,WV,,,,,,,Bill,Mazeroski,William Stanley,183.0,71.0,R,R,1956-07-07,1972-10-04
+11916,mccarjo99,1887.0,4.0,21.0,Philadelphia,USA,PA,1978.0,1.0,13.0,USA,NY,Buffalo,Joe,McCarthy,Joseph Vincent,190.0,68.0,R,R,,
+11922,mccarto01,1863.0,7.0,24.0,Boston,USA,MA,1922.0,8.0,5.0,USA,MA,Boston,Tommy,McCarthy,Thomas Francis Michael,170.0,67.0,R,R,1884-07-10,1896-09-26
+11976,mccovwi01,1938.0,1.0,10.0,Mobile,USA,AL,2018.0,10.0,31.0,USA,CA,Palo Alto,Willie,McCovey,Willie Lee,198.0,76.0,L,L,1959-07-30,1980-07-06
+12100,mcginjo01,1871.0,3.0,20.0,Cornwall,USA,IL,1929.0,11.0,14.0,USA,NY,Brooklyn,Joe,McGinnity,Joseph Jerome,206.0,71.0,R,R,1899-04-18,1908-10-05
+12113,mcgowbi99,1896.0,1.0,18.0,Wilmington,USA,DE,1954.0,12.0,9.0,USA,MD,Silver Spring,Bill,McGowan,William Aloysius,178.0,69.0,,,,
+12120,mcgrajo01,1873.0,4.0,7.0,Truxton,USA,NY,1934.0,2.0,25.0,USA,NY,New Rochelle,John,McGraw,John Joseph,155.0,67.0,L,R,1891-08-26,1907-06-18
+12127,mcgrifr01,1963.0,10.0,31.0,Tampa,USA,FL,,,,,,,Fred,McGriff,Frederick Stanley,200.0,75.0,L,L,1986-05-17,2004-07-15
+12170,mckecbi01,1886.0,8.0,7.0,Wilkinsburg,USA,PA,1965.0,10.0,29.0,USA,FL,Bradenton,Bill,McKechnie,William Boyd,160.0,70.0,B,R,1907-09-08,1920-09-28
+12284,mcphebi01,1859.0,11.0,1.0,Massena,USA,NY,1943.0,1.0,3.0,USA,CA,San Diego,Bid,McPhee,John Alexander,152.0,68.0,R,R,1882-05-02,1899-10-15
+12343,medwijo01,1911.0,11.0,24.0,Carteret,USA,NJ,1975.0,3.0,21.0,USA,FL,St. Petersburg,Joe,Medwick,Joseph Michael,187.0,70.0,R,R,1932-09-02,1948-07-25
+12407,mendejo99,1885.0,1.0,2.0,Cardenas,Cuba,Matanzas,1928.0,10.0,31.0,Cuba,La Habana,La Habana,Jose,Mendez,Jose Colmenar,152.0,70.0,R,R,,
+12716,minosmi01,1923.0,11.0,29.0,Perico,Cuba,Matanzas,2015.0,3.0,1.0,USA,IL,Chicago,Minnie,Minoso,Saturnino Orestes Armas,175.0,70.0,R,R,1949-04-19,1980-10-05
+12760,mizejo01,1913.0,1.0,7.0,Demorest,USA,GA,1993.0,6.0,2.0,USA,GA,Demorest,Johnny,Mize,John Robert,215.0,74.0,L,R,1936-04-16,1953-09-26
+12797,molitpa01,1956.0,8.0,22.0,St. Paul,USA,MN,,,,,,,Paul,Molitor,Paul Leo,185.0,72.0,R,R,1978-04-07,1998-09-27
+12988,morgajo02,1943.0,9.0,19.0,Bonham,USA,TX,2020.0,10.0,11.0,USA,CA,Danville,Joe,Morgan,Joe Leonard,160.0,67.0,L,R,1963-09-21,1984-09-30
+13033,morrija02,1955.0,5.0,16.0,St. Paul,USA,MN,,,,,,,Jack,Morris,John Scott,195.0,75.0,R,R,1977-07-26,1994-08-07
+13202,munsoth01,1947.0,6.0,7.0,Akron,USA,OH,1979.0,8.0,2.0,USA,OH,Summit County,Thurman,Munson,Thurman Lee,190.0,71.0,R,R,1969-08-08,1979-08-01
+13271,murraed02,1956.0,2.0,24.0,Los Angeles,USA,CA,,,,,,,Eddie,Murray,Eddie Clarence,190.0,74.0,B,R,1977-04-07,1997-09-20
+13295,musiast01,1920.0,11.0,21.0,Donora,USA,PA,2013.0,1.0,19.0,USA,MO,Ladue,Stan,Musial,Stanley Frank,175.0,72.0,L,L,1941-09-17,1963-09-29
+13302,mussimi01,1968.0,12.0,8.0,Williamsport,USA,PA,,,,,,,Mike,Mussina,Michael Cole,185.0,74.0,L,R,1991-08-04,2008-09-28
+13490,newhoha01,1921.0,5.0,20.0,Detroit,USA,MI,1998.0,11.0,10.0,USA,MI,Southfield,Hal,Newhouser,Harold,180.0,74.0,L,L,1939-09-29,1955-05-03
+13525,nichoki01,1869.0,9.0,14.0,Madison,USA,WI,1953.0,4.0,11.0,USA,MO,Kansas City,Kid,Nichols,Charles Augustus,175.0,70.0,B,R,1890-04-23,1906-05-18
+13550,niekrph01,1939.0,4.0,1.0,Blaine,USA,OH,2020.0,12.0,27.0,USA,GA,Flowery Branch,Phil,Niekro,Philip Henry,180.0,73.0,R,R,1964-04-15,1987-09-27
+13752,odayha01,1859.0,7.0,8.0,Chicago,USA,IL,1935.0,7.0,2.0,USA,IL,Chicago,Hank,O'Day,Henry M.,180.0,72.0,R,R,1884-05-02,1890-10-03
+13833,olivato01,1938.0,7.0,20.0,Pinar del Rio,Cuba,Pinar del Rio,,,,,,,Tony,Oliva,Tony Pedro,175.0,73.0,L,R,1962-09-09,1976-09-29
+13877,omallwa99,1903.0,10.0,9.0,New York,USA,NY,1979.0,8.0,9.0,USA,MN,Rochester,Walter,O'Malley,Walter Francis,,,,,,
+13887,oneilbu01,1911.0,11.0,13.0,Carrabelle,USA,FL,2006.0,10.0,6.0,USA,MO,Kansas City,Buck,O'Neil,John Jordan,190.0,70.0,R,R,,
+13931,orourji01,1850.0,9.0,1.0,Bridgeport,USA,CT,1919.0,1.0,8.0,USA,CT,Bridgeport,Jim,O'Rourke,James Henry,185.0,68.0,R,R,1872-04-26,1904-09-22
+13957,ortizda01,1975.0,11.0,18.0,Santo Domingo,D.R.,Distrito Nacional,,,,,,,David,Ortiz,David Americo,230.0,75.0,L,L,1997-09-02,2016-10-02
+14028,ottme01,1909.0,3.0,2.0,Gretna,USA,LA,1958.0,11.0,21.0,USA,LA,New Orleans,Mel,Ott,Melvin Thomas,170.0,69.0,L,R,1926-04-27,1947-07-11
+14118,paigesa01,1906.0,7.0,7.0,Mobile,USA,AL,1982.0,6.0,8.0,USA,MO,Kansas City,Satchel,Paige,Leroy Robert,180.0,75.0,R,R,1948-07-09,1965-09-25
+14136,palmeji01,1945.0,10.0,15.0,New York,USA,NY,,,,,,,Jim,Palmer,James Alvin,190.0,75.0,R,R,1965-04-17,1984-05-12
+14426,pennohe01,1894.0,2.0,10.0,Kennett Square,USA,PA,1948.0,1.0,30.0,USA,NY,New York,Herb,Pennock,Herbert Jefferis,160.0,72.0,B,L,1912-05-14,1934-08-27
+14496,perezto01,1942.0,5.0,14.0,Camaguey,Cuba,Camaguey,,,,,,,Tony,Perez,Atanacio,175.0,74.0,R,R,1964-07-26,1986-10-05
+14526,perryga01,1938.0,9.0,15.0,Williamston,USA,NC,2022.0,12.0,1.0,USA,SC,Gaffney,Gaylord,Perry,Gaylord Jackson,205.0,76.0,R,R,1962-04-14,1983-09-21
+14668,piazzmi01,1968.0,9.0,4.0,Norristown,USA,PA,,,,,,,Mike,Piazza,Michael Joseph,200.0,75.0,R,R,1992-09-01,2007-09-30
+14776,planked01,1875.0,8.0,31.0,Gettysburg,USA,PA,1926.0,2.0,24.0,USA,PA,Gettysburg,Eddie,Plank,Edward Stewart,175.0,71.0,L,L,1901-05-13,1917-08-06
+14836,pompeal99,1890.0,5.0,14.0,Key West,USA,FL,1974.0,3.0,14.0,USA,NY,New York,Alex,Pompez,Alejandro,,,,,,
+14887,poseycu99,1890.0,6.0,20.0,Homestead,USA,PA,1946.0,3.0,28.0,USA,PA,Pittsburgh,Cum,Posey,Cumberland Willis,140.0,69.0,R,R,,
+15015,puckeki01,1960.0,3.0,14.0,Chicago,USA,IL,2006.0,3.0,6.0,USA,AZ,Phoenix,Kirby,Puckett,Kirby,178.0,68.0,R,R,1984-05-08,1995-09-28
+15124,radboch01,1854.0,12.0,11.0,Rochester,USA,NY,1897.0,2.0,5.0,USA,IL,Bloomington,Old Hoss,Radbourn,Charles Gardner,168.0,69.0,R,R,1880-05-05,1891-08-11
+15154,raineti01,1959.0,9.0,16.0,Sanford,USA,FL,,,,,,,Tim,Raines,Timothy,160.0,68.0,B,R,1979-09-11,2002-09-29
+15361,reesepe01,1918.0,7.0,23.0,Ekron,USA,KY,1999.0,8.0,14.0,USA,KY,Louisville,Pee Wee,Reese,Harold Henry,160.0,70.0,R,R,1940-04-23,1958-09-26
+15536,riceji01,1953.0,3.0,8.0,Anderson,USA,SC,,,,,,,Jim,Rice,James Edward,200.0,74.0,R,R,1974-08-19,1989-08-03
+15539,ricesa01,1890.0,2.0,20.0,Morocco,USA,IN,1974.0,10.0,13.0,USA,MD,Rossmoor,Sam,Rice,Edgar Charles,150.0,69.0,L,R,1915-08-07,1934-09-18
+15584,rickebr01,1881.0,12.0,20.0,Flat,USA,OH,1965.0,12.0,9.0,USA,MO,Columbia,Branch,Rickey,Wesley Branch,175.0,69.0,L,R,1905-06-16,1914-08-25
+15649,ripkeca01,1960.0,8.0,24.0,Havre de Grace,USA,MD,,,,,,,Cal,Ripken,Calvin Edwin,200.0,76.0,R,R,1981-08-10,2001-10-06
+15687,riverma01,1969.0,11.0,29.0,Panama,Panama,Panama,,,,,,,Mariano,Rivera,Mariano,195.0,74.0,R,R,1995-05-23,2013-09-26
+15698,rixeyep01,1891.0,5.0,3.0,Culpeper,USA,VA,1963.0,2.0,28.0,USA,OH,Terrace Park,Eppa,Rixey,Eppa,210.0,77.0,R,L,1912-06-21,1933-08-05
+15702,rizzuph01,1917.0,9.0,25.0,Brooklyn,USA,NY,2007.0,8.0,13.0,USA,NJ,West Orange,Phil,Rizzuto,Philip Francis,150.0,66.0,R,R,1941-04-14,1956-08-16
+15757,roberro01,1926.0,9.0,30.0,Springfield,USA,IL,2010.0,5.0,6.0,USA,FL,Temple Terrace,Robin,Roberts,Robin Evan,190.0,72.0,B,R,1948-06-18,1966-09-03
+15769,robinbr01,1937.0,5.0,18.0,Little Rock,USA,AR,2023.0,9.0,26.0,USA,MD,Owings Mills,Brooks,Robinson,Brooks Calbert,180.0,73.0,R,R,1955-09-17,1977-08-13
+15785,robinfr02,1935.0,8.0,31.0,Beaumont,USA,TX,2019.0,2.0,7.0,USA,CA,Los Angeles,Frank,Robinson,Frank,183.0,73.0,R,R,1956-04-17,1976-09-18
+15789,robinja02,1919.0,1.0,31.0,Cairo,USA,GA,1972.0,10.0,24.0,USA,CT,Stamford,Jackie,Robinson,Jack Roosevelt,195.0,71.0,R,R,1947-04-15,1956-09-30
+15800,robinwi01,1864.0,6.0,29.0,Bolton,USA,MA,1934.0,8.0,8.0,USA,GA,Atlanta,Wilbert,Robinson,Wilbert,215.0,68.0,R,R,1886-04-19,1902-09-29
+15858,rodriiv01,1971.0,11.0,27.0,Manati,P.R.,,,,,,,,Ivan,Rodriguez,Ivan,205.0,69.0,R,R,1991-06-20,2011-09-28
+15904,roganbu99,1893.0,7.0,28.0,Oklahoma City,USA,OK,1967.0,3.0,4.0,USA,MO,Kansas City,Bullet,Rogan,Charles Wilber,160.0,67.0,R,R,,
+15950,rolensc01,1975.0,4.0,4.0,Evansville,USA,IN,,,,,,,Scott,Rolen,Scott Bruce,245.0,76.0,R,R,1996-08-01,2012-10-03
+16101,roushed01,1893.0,5.0,8.0,Oakland City,USA,IN,1988.0,3.0,21.0,USA,FL,Bradenton,Edd,Roush,Edd J.,170.0,71.0,L,L,1913-08-20,1931-09-27
+16163,ruffire01,1905.0,5.0,3.0,Granville,USA,IL,1986.0,2.0,17.0,USA,OH,Mayfield Heights,Red,Ruffing,Charles Herbert,205.0,73.0,R,R,1924-05-31,1947-09-15
+16185,ruperja99,1867.0,8.0,5.0,New York,USA,NY,1939.0,1.0,13.0,USA,NY,New York,Jacob,Ruppert,Jacob,,,,,,
+16192,rusieam01,1871.0,5.0,30.0,Mooresville,USA,IN,1942.0,12.0,6.0,USA,WA,Seattle,Amos,Rusie,Amos Wilson,200.0,73.0,R,R,1889-05-09,1901-06-09
+16216,ruthba01,1895.0,2.0,6.0,Baltimore,USA,MD,1948.0,8.0,16.0,USA,NY,New York,Babe,Ruth,George Herman,215.0,74.0,L,L,1914-07-11,1935-05-30
+16246,ryanno01,1947.0,1.0,31.0,Refugio,USA,TX,,,,,,,Nolan,Ryan,Lynn Nolan,170.0,74.0,R,R,1966-09-11,1993-09-22
+16373,sandbry01,1959.0,9.0,18.0,Spokane,USA,WA,,,,,,,Ryne,Sandberg,Ryne Dee,175.0,73.0,R,R,1981-09-02,1997-09-28
+16440,santolo99,1889.0,1.0,17.0,Fort Worth,USA,TX,1942.0,1.0,22.0,USA,PA,Philadelphia,Louis,Santop,Louis,200.0,74.0,L,R,,
+16445,santoro01,1940.0,2.0,25.0,Seattle,USA,WA,2010.0,12.0,2.0,USA,AZ,Scottsdale,Ron,Santo,Ronald Edward,190.0,72.0,R,R,1960-06-26,1974-09-29
+16541,schalra01,1892.0,8.0,12.0,Harvel,USA,IL,1970.0,5.0,19.0,USA,IL,Chicago,Ray,Schalk,Ray William,165.0,69.0,R,R,1912-08-11,1929-09-15
+16625,schmimi01,1949.0,9.0,27.0,Dayton,USA,OH,,,,,,,Mike,Schmidt,Michael Jack,195.0,74.0,R,R,1972-09-12,1989-05-28
+16642,schoere01,1923.0,2.0,2.0,Germantown,USA,IL,2018.0,6.0,6.0,USA,MO,Town and Country,Red,Schoendienst,Albert Fred,170.0,72.0,B,R,1945-04-17,1963-07-07
+16703,schurjo99,1940.0,10.0,1.0,Baltimore,USA,MD,,,,,,,John,Schuerholz,John,,,,,,
+16782,seaveto01,1944.0,11.0,17.0,Fresno,USA,CA,2020.0,8.0,31.0,USA,CA,Calistoga,Tom,Seaver,George Thomas,195.0,73.0,R,R,1967-04-13,1986-09-19
+16818,seleefr99,1859.0,10.0,26.0,Amherst,USA,NH,1909.0,7.0,5.0,USA,CO,Denver,Frank,Selee,Frank Gibson,,,,,,
+16820,seligbu99,1934.0,7.0,30.0,Milwaukee,USA,WI,,,,,,,Bud,Selig,Allan H.,,,,,,
+16873,seweljo01,1898.0,10.0,9.0,Titus,USA,AL,1990.0,3.0,6.0,USA,AL,Mobile,Joe,Sewell,Joseph Wheeler,155.0,66.0,L,R,1920-09-10,1933-09-24
+17141,simmoal01,1902.0,5.0,22.0,Milwaukee,USA,WI,1956.0,5.0,26.0,USA,WI,Milwaukee,Al,Simmons,Aloysius Harry,190.0,71.0,R,R,1924-04-15,1944-07-01
+17152,simmote01,1949.0,8.0,9.0,Highland Park,USA,MI,,,,,,,Ted,Simmons,Ted Lyle,193.0,71.0,B,R,1968-09-21,1988-10-02
+17200,sislege01,1893.0,3.0,24.0,Manchester,USA,OH,1973.0,3.0,26.0,USA,MO,Richmond Heights,George,Sisler,George Harold,170.0,71.0,L,L,1915-06-28,1930-09-22
+17251,slaugen01,1916.0,4.0,27.0,Roxboro,USA,NC,2002.0,8.0,12.0,USA,NC,Durham,Enos,Slaughter,Enos Bradsher,180.0,69.0,L,R,1938-04-19,1959-09-29
+17371,smithhi99,1907.0,2.0,27.0,Giddings,USA,TX,1983.0,11.0,18.0,USA,MO,Kansas City,Hilton,Smith,Hilton Lee,180.0,74.0,R,R,,
+17398,smithle02,1957.0,12.0,4.0,Jamestown,USA,LA,,,,,,,Lee,Smith,Lee Arthur,220.0,77.0,R,R,1980-09-01,1997-07-02
+17414,smithoz01,1954.0,12.0,26.0,Mobile,USA,AL,,,,,,,Ozzie,Smith,Osborne Earl,150.0,71.0,B,R,1978-04-07,1996-09-29
+17460,smoltjo01,1967.0,5.0,15.0,Detroit,USA,MI,,,,,,,John,Smoltz,John Andrew,210.0,75.0,R,R,1988-07-23,2009-09-30
+17482,snidedu01,1926.0,9.0,19.0,Los Angeles,USA,CA,2011.0,2.0,27.0,USA,CA,Escondido,Duke,Snider,Edwin Donald,179.0,72.0,L,R,1947-04-17,1964-10-03
+17588,southbi01,1893.0,3.0,9.0,Harvard,USA,NE,1969.0,11.0,15.0,USA,OH,Columbus,Billy,Southworth,William Harold,170.0,69.0,L,R,1913-08-04,1929-07-09
+17598,spahnwa01,1921.0,4.0,23.0,Buffalo,USA,NY,2003.0,11.0,24.0,USA,OK,Broken Arrow,Warren,Spahn,Warren Edward,172.0,72.0,L,L,1942-04-19,1965-10-01
+17599,spaldal01,1850.0,9.0,2.0,Byron,USA,IL,1915.0,9.0,9.0,USA,CA,San Diego,Al,Spalding,Albert Goodwill,170.0,73.0,R,R,1871-05-05,1878-08-31
+17612,speaktr01,1888.0,4.0,4.0,Hubbard,USA,TX,1958.0,12.0,8.0,USA,TX,Lake Whitney,Tris,Speaker,Tristram Edgar,193.0,71.0,L,L,1907-09-12,1928-08-30
+17760,stargwi01,1940.0,3.0,6.0,Earlsboro,USA,OK,2001.0,4.0,9.0,USA,NC,Wilmington,Willie,Stargell,Wilver Dornel,188.0,74.0,L,L,1962-09-16,1982-10-03
+17789,steartu99,1901.0,5.0,8.0,Nashville,USA,TN,1979.0,9.0,4.0,USA,MI,Detroit,Turkey,Stearnes,Norman Thomas,175.0,71.0,L,L,,
+17831,stengca01,1890.0,7.0,30.0,Kansas City,USA,MO,1975.0,9.0,29.0,USA,CA,Glendale,Casey,Stengel,Charles Dillon,175.0,71.0,L,L,1912-09-17,1925-05-19
+18181,suttebr01,1953.0,1.0,8.0,Lancaster,USA,PA,2022.0,10.0,13.0,USA,GA,Cartersville,Bruce,Sutter,Howard Bruce,190.0,74.0,R,R,1976-05-09,1988-09-09
+18183,suttlmu99,1901.0,3.0,31.0,Blocton,USA,AL,1966.0,7.0,9.0,USA,NJ,Newark,Mule,Suttles,George,215.0,75.0,R,R,,
+18184,suttodo01,1945.0,4.0,2.0,Clio,USA,AL,2021.0,1.0,18.0,USA,CA,Rancho Mirage,Don,Sutton,Donald Howard,185.0,73.0,R,R,1966-04-14,1988-08-09
+18360,taylobe99,1888.0,7.0,1.0,Anderson,USA,SC,1953.0,1.0,24.0,USA,MD,Baltimore,Ben,Taylor,Benjamin Harrison,175.0,71.0,L,L,,
+18460,terrybi01,1898.0,10.0,30.0,Atlanta,USA,GA,1989.0,1.0,9.0,USA,FL,Jacksonville,Bill,Terry,William Harold,200.0,73.0,L,L,1923-09-24,1936-09-22
+18531,thomafr04,1968.0,5.0,27.0,Columbus,USA,GA,,,,,,,Frank,Thomas,Frank Edward,240.0,77.0,R,R,1990-08-02,2008-08-29
+18558,thomeji01,1970.0,8.0,27.0,Peoria,USA,IL,,,,,,,Jim,Thome,James Howard,250.0,76.0,L,R,1991-09-04,2012-10-03
+18598,thompsa01,1860.0,3.0,5.0,Danville,USA,IN,1922.0,11.0,7.0,USA,MI,Detroit,Sam,Thompson,Samuel Luther,207.0,74.0,L,R,1885-07-02,1906-09-10
+18672,tinkejo01,1880.0,7.0,27.0,Muscotah,USA,KS,1948.0,7.0,27.0,USA,FL,Orlando,Joe,Tinker,Joseph Bert,175.0,69.0,R,R,1902-04-17,1916-09-22
+18760,torrejo01,1940.0,7.0,18.0,Brooklyn,USA,NY,,,,,,,Joe,Torre,Joseph Paul,212.0,74.0,R,R,1960-09-25,1977-06-17
+18772,torricr99,1893.0,11.0,16.0,Cienfuegos,Cuba,Las Villas,1938.0,4.0,11.0,USA,NY,New York,Cristobal,Torriente,Cristobal,190.0,70.0,L,L,,
+18806,trammal01,1958.0,2.0,21.0,Garden Grove,USA,CA,,,,,,,Alan,Trammell,Alan Stuart,165.0,72.0,R,R,1977-09-09,1996-09-29
+18818,traynpi01,1898.0,11.0,11.0,Framingham,USA,MA,1972.0,3.0,16.0,USA,PA,Pittsburgh,Pie,Traynor,Harold Joseph,170.0,72.0,R,R,1920-09-15,1937-08-14
+19085,vanceda01,1891.0,3.0,4.0,Orient,USA,IA,1961.0,2.0,16.0,USA,FL,Homosassa Springs,Dazzy,Vance,Charles Arthur,200.0,74.0,R,R,1915-04-16,1935-08-14
+19144,vaughar01,1912.0,3.0,9.0,Clifty,USA,AR,1952.0,8.0,30.0,USA,CA,Eagleville,Arky,Vaughan,Joseph Floyd,175.0,70.0,L,R,1932-04-17,1948-09-22
+19167,veeckbi99,1914.0,2.0,9.0,Chicago,USA,IL,1986.0,1.0,2.0,USA,IL,Chicago,Bill,Veeck,William Louis,,,,,,
+19316,wadderu01,1876.0,10.0,13.0,Bradford,USA,PA,1914.0,4.0,1.0,USA,TX,San Antonio,Rube,Waddell,George Edward,196.0,73.0,R,L,1897-09-08,1910-08-01
+19340,wagneho01,1874.0,2.0,24.0,Chartiers,USA,PA,1955.0,12.0,6.0,USA,PA,Carnegie,Honus,Wagner,John Peter,200.0,71.0,R,R,1897-07-19,1917-09-17
+19399,walkela01,1966.0,12.0,1.0,Maple Ridge,CAN,BC,,,,,,,Larry,Walker,Larry Kenneth Robert,185.0,74.0,L,R,1989-08-16,2005-10-02
+19423,wallabo01,1873.0,11.0,4.0,Pittsburgh,USA,PA,1960.0,11.0,3.0,USA,CA,Torrance,Bobby,Wallace,Roderick John,170.0,68.0,R,R,1894-09-15,1918-09-02
+19459,walshed01,1881.0,5.0,19.0,Plains,USA,PA,1959.0,5.0,26.0,USA,FL,Pompano Beach,Ed,Walsh,Edward Augustine,193.0,73.0,R,R,1904-05-07,1917-09-11
+19493,wanerll01,1906.0,3.0,16.0,Harrah,USA,OK,1982.0,7.0,22.0,USA,OK,Oklahoma City,Lloyd,Waner,Lloyd James,150.0,69.0,L,R,1927-04-12,1945-09-16
+19494,wanerpa01,1903.0,4.0,16.0,Harrah,USA,OK,1965.0,8.0,29.0,USA,FL,Sarasota,Paul,Waner,Paul Glee,153.0,68.0,L,L,1926-04-13,1945-04-26
+19516,wardjo01,1860.0,3.0,3.0,Bellefonte,USA,PA,1925.0,3.0,4.0,USA,GA,Augusta,John,Ward,John Montgomery,165.0,69.0,L,R,1878-07-15,1894-09-29
+19620,weaveea99,1930.0,8.0,14.0,St. Louis,USA,MO,2013.0,1.0,19.0,Caribbean Sea,,Cruise Ship,Earl,Weaver,Earl Sidney,180.0,67.0,R,R,,
+19693,weissge99,1894.0,6.0,23.0,New Haven,USA,CT,1972.0,8.0,13.0,USA,CT,Greenwich,George,Weiss,George,,,,,,
+19706,welchmi01,1859.0,7.0,4.0,Brooklyn,USA,NY,1941.0,7.0,30.0,USA,NH,Concord,Mickey,Welch,Michael Francis,160.0,68.0,R,R,1880-05-01,1892-05-17
+19733,wellswi99,1904.0,8.0,10.0,Shawnee,USA,OK,1989.0,1.0,22.0,USA,TX,Austin,Willie,Wells,Willie James,170.0,69.0,R,R,,
+19802,wheatza01,1888.0,5.0,23.0,Hamilton,USA,MO,1972.0,3.0,11.0,USA,MO,Sedalia,Zack,Wheat,Zachariah Davis,170.0,70.0,L,R,1909-09-11,1927-09-21
+19843,whitede01,1847.0,12.0,2.0,Caton,USA,NY,1939.0,7.0,7.0,USA,IL,Aurora,Deacon,White,James Laurie,175.0,71.0,L,R,1871-05-04,1890-10-04
+19888,whiteso99,1868.0,6.0,12.0,Bellaire,USA,OH,1955.0,8.0,26.0,USA,NY,Central Islip,Sol,White,King Solomon,170.0,69.0,R,R,,
+19954,wilheho01,1922.0,7.0,26.0,Huntersville,USA,NC,2002.0,8.0,23.0,USA,FL,Sarasota,Hoyt,Wilhelm,James Hoyt,190.0,72.0,R,R,1952-04-18,1972-07-10
+19973,wilkijl99,1878.0,5.0,14.0,Perry,USA,IA,1964.0,8.0,21.0,USA,MO,Kansas City,J. L.,Wilkinson,James Leslie,175.0,67.0,,,,
+19993,willibi01,1938.0,6.0,15.0,Whistler,USA,AL,,,,,,,Billy,Williams,Billy Leo,175.0,73.0,L,R,1959-08-06,1976-10-02
+20011,willidi02,1929.0,5.0,7.0,St. Louis,USA,MO,2011.0,7.0,7.0,USA,NV,Las Vegas,Dick,Williams,Richard Hirschfeld,190.0,72.0,R,R,1951-06-10,1964-10-01
+20039,willijo99,1886.0,4.0,6.0,Seguin,USA,TX,1951.0,2.0,25.0,USA,NY,New York,Joe,Williams,Joseph,190.0,75.0,R,R,,
+20080,willite01,1918.0,8.0,30.0,San Diego,USA,CA,2002.0,7.0,5.0,USA,FL,Inverness,Ted,Williams,Theodore Samuel,205.0,75.0,L,R,1939-04-20,1960-09-28
+20084,willivi01,1876.0,4.0,12.0,Cecil County,USA,MD,1947.0,8.0,3.0,USA,MD,Elkton,Vic,Willis,Victor Gazaway,185.0,74.0,R,R,1898-04-20,1910-09-05
+20135,wilsoha01,1900.0,4.0,26.0,Ellwood City,USA,PA,1948.0,11.0,23.0,USA,MD,Baltimore,Hack,Wilson,Lewis Robert,190.0,66.0,R,R,1923-09-29,1934-08-25
+20149,wilsoju99,1896.0,2.0,28.0,Remington,USA,VA,1963.0,6.0,24.0,USA,DC,Washington,Jud,Wilson,Ernest Judson,190.0,68.0,L,R,,
+20197,winfida01,1951.0,10.0,3.0,St. Paul,USA,MN,,,,,,,Dave,Winfield,David Mark,220.0,78.0,R,R,1973-06-19,1995-10-01
+20400,wrighge01,1847.0,1.0,28.0,New York,USA,NY,1937.0,8.0,21.0,USA,MA,Boston,George,Wright,George,150.0,69.0,R,R,1871-05-05,1882-10-02
+20404,wrighha01,1835.0,1.0,10.0,Sheffield,United Kingdom,,1895.0,10.0,3.0,USA,NJ,Atlantic City,Harry,Wright,William Henry,157.0,69.0,R,R,1871-05-05,1877-09-29
+20441,wynnea01,1920.0,1.0,6.0,Hartford,USA,AL,1999.0,4.0,4.0,USA,FL,Venice,Early,Wynn,Early,190.0,72.0,B,R,1939-09-13,1963-09-13
+20469,yastrca01,1939.0,8.0,22.0,Southampton,USA,NY,,,,,,,Carl,Yastrzemski,Carl Michael,175.0,71.0,L,R,1961-04-11,1983-10-02
+20474,yawketo99,1903.0,2.0,21.0,Detroit,USA,MI,1976.0,7.0,9.0,USA,MA,Boston,Tom,Yawkey,Thomas Austin,,,,,,
+20529,youngcy01,1867.0,3.0,29.0,Gilmore,USA,OH,1955.0,11.0,4.0,USA,OH,Newcomerstown,Cy,Young,Denton True,210.0,74.0,R,R,1890-08-06,1911-10-06
+20564,youngro01,1897.0,4.0,10.0,Shiner,USA,TX,1927.0,10.0,22.0,USA,TX,San Antonio,Ross,Youngs,Royce Middlebrook,162.0,68.0,L,R,1917-09-25,1926-08-10
+20571,yountro01,1955.0,9.0,16.0,Danville,USA,IL,,,,,,,Robin,Yount,Robin R.,165.0,72.0,R,R,1974-04-05,1993-10-03
+20973,millema99,1917.0,4.0,14.0,Brooklyn,USA,NY,2012.0,11.0,27.0,Manhattan,USA,NY,Marvin,Miller,Marvin Julian,,,,,,
