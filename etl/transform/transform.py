@@ -9,11 +9,9 @@ def transform_HoF(HoF, People, Apps):
         HoF = row_manager(HoF, ID_list)
         People = row_manager(People, ID_list)
         Apps = row_manager(Apps, ID_list)
-        inter_data = HoF.merge(People, how='inner', copy=False)
-        trans_data = inter_data.merge(Apps, how='inner', copy=False)
     except Exception as e:
         print(f"An error occurred in transform_HoF: {e}")
-    return trans_data
+    return HoF, People, Apps
 
 
 def column_manager(df):
