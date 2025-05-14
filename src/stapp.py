@@ -1,8 +1,5 @@
 import pandas as pd
 import streamlit as st
-from etl.transform.transform import list_IDs
-
-df = pd.read_csv('data/output/trans_HoF.csv', encoding='ISO-8859-1')
 
 
 def selector(df, player):
@@ -17,6 +14,25 @@ def display_name(opt):
         return ID_list[opt]
     except Exception as e:
         print(f"An error occurred in display_name: {e}")
+
+
+def name_picker(df):
+    try:
+        ID_list = []
+    except Exception as e:
+        print(f"An error occurred in ID_list setup: {e}")
+    try:
+        cols_to_ret = ['playerID', 'nameFirst', 'nameLast']
+        mid_list = df.loc[:, cols_to_ret]
+    except Exception as e:
+        print(f"An error occurred in mid_list: {e}")
+    try:
+        name = mid_list['nameFirst'] + ' ' + mid_list['nameLast']
+        ID_list = pd.Series(name.to_numpy(),
+                            index=mid_list['playerID']).to_dict()
+    except Exception as e:
+        print(f"An error occurred in ID_list allocation: {e}")
+    return ID_list
 
 
 def write_days(df):
@@ -73,25 +89,29 @@ def play_info(df):
             st.metric(label='Height', value=f'{int(df['height'].iloc[0])}in')
             st.metric(label='Throws', value=f'{df['throws'].iloc[0]}')
             st.metric(label='Debut', value=f'{df['debut'].iloc[0]}')
-            st.metric(label='First Team', value=f'{df['teamID'].iloc[0]}')
+            #st.metric(label='First Team', value=f'{df['teamID'].iloc[0]}')
         with col2:
             st.metric(label='Weight', value=f'{int(df['weight'].iloc[0])}lbs')
             st.metric(label='Bats', value=f'{df['bats'].iloc[0]}')
             st.metric(label='Final Game', value=f'{df['finalGame'].iloc[0]}')
-            st.metric(label='Last Team', value=f'{df['teamID'].iloc[-1]}')
+            #st.metric(label='Last Team', value=f'{df['teamID'].iloc[-1]}')
 
     except Exception as e:
         print(f"An error occurred in play_info: {e}")
 
 
+HoF = pd.read_csv('data/output/trans_HoF.csv', encoding='ISO-8859-1')
+People = pd.read_csv('data/output/trans_People.csv', encoding='ISO-8859-1')
+Apps = pd.read_csv('data/output/trans_Apps.csv', encoding='ISO-8859-1')
+
 st.title('MLB Hall of Fame')
 
-ID_list = list_IDs(df)
+ID_list = name_picker(People)
 
 player = st.selectbox('Select a Hall of Famer',
                       ID_list.keys(), format_func=display_name)
 
-filtered_df = selector(df, player)
+filtered_df = selector(People, player)
 
 write_days(filtered_df)
 
