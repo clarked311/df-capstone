@@ -100,9 +100,15 @@ def play_info(df):
 
 def HoF_tracker(df):
     try:
-        st.line_chart(data=df, x='yearid', y=['needed', 'votes'], x_label='year', y_label='votes', color=['#000000', '#0000FF'])
+        st.line_chart(data=df, x='yearid', y=['needed', 'votes'],
+                      x_label='year', y_label='votes',
+                      color=['#000000', '#0000FF'])
     except Exception as e:
         print(f"An error occurred in HoF_tracker: {e}")
+
+
+def team_chart(df):
+    pass
 
 
 HoF = pd.read_csv('data/output/trans_HoF.csv', encoding='ISO-8859-1')
