@@ -1,19 +1,18 @@
 import pandas as pd
 
 
-def transform_HoF(HoF, People, Apps):
+def transform_HoF(HoF, People, Apps, Teams):
     try:
         People = column_manager(People)
         Apps = column_manager(Apps)
+        Teams = column_manager(Teams)
         ID_list = list_IDs(HoF)
         HoF = row_manager(HoF, ID_list)
         People = row_manager(People, ID_list)
         Apps = row_manager(Apps, ID_list)
-        inter_data = HoF.merge(People, how='inner', copy=False)
-        trans_data = inter_data.merge(Apps, how='inner', copy=False)
     except Exception as e:
         print(f"An error occurred in transform_HoF: {e}")
-    return trans_data
+    return HoF, People, Apps, Teams
 
 
 def column_manager(df):
@@ -25,6 +24,16 @@ def column_manager(df):
                            'G_c', 'G_1b', 'G_2b', 'G_3b', 'G_ss', 'G_lf',
                            'G_cf', 'G_rf', 'G_of', 'G_dh', 'G_ph', 'G_pr']
             df.drop(col_to_drop, axis=1, inplace=True)
+        elif 'attendance' in df.columns:
+            col_to_drop = ['yearID', 'divID', 'Rank', 'G', 'Ghome', 'W', 'L',
+                           'DivWin', 'WCWin', 'LgWin', 'WSWin', 'R', 'AB',
+                           'H', '2B', '3B', 'HR', 'BB', 'SO', 'SB', 'CS',
+                           'HBP', 'SF', 'RA', 'ER', 'ERA', 'CG', 'SHO', 'SV',
+                           'IPouts', 'HA', 'HRA', 'BBA', 'SOA', 'E', 'DP',
+                           'FP', 'park', 'attendance', 'BPF', 'PPF',
+                           'teamIDBR', 'teamIDlahman45', 'teamIDretro']
+            df.drop(col_to_drop, axis=1, inplace=True)
+            df.drop_duplicates
         else:
             print('df not found in manager')
     except Exception as e:
