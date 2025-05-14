@@ -10,9 +10,10 @@ def transform_HoF(HoF, People, Apps, Teams):
         HoF = row_manager(HoF, ID_list)
         People = row_manager(People, ID_list)
         Apps = row_manager(Apps, ID_list)
+        Apps = pd.merge(Apps, Teams, 'inner', on='teamID', validate='m:1')
     except Exception as e:
         print(f"An error occurred in transform_HoF: {e}")
-    return HoF, People, Apps, Teams
+    return HoF, People, Apps
 
 
 def column_manager(df):
