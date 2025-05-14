@@ -1,10 +1,14 @@
 from pathlib import Path
 
 
-def load_HoF(dataset):
+def load_HoF(HoF, People, Apps):
     try:
         filepath = Path('data/output/trans_HoF.csv')
-        dataset.to_csv(filepath)
+        HoF.to_csv(filepath, encoding='ISO-8859-1')
+        filepath = Path('data/output/trans_People.csv')
+        People.to_csv(filepath, encoding='ISO-8859-1')
+        filepath = Path('data/output/trans_Apps.csv')
+        Apps.to_csv(filepath, encoding='ISO-8859-1')
     except Exception as e:
-        print(f'An error occurred: {e}')
+        print(f'An error occurred in load_HoF: {e}')
     return 'Extracted'
