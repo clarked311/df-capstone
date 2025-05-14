@@ -10,9 +10,10 @@ def transform_HoF(HoF, People, Apps, Teams):
         HoF = row_manager(HoF, ID_list)
         People = row_manager(People, ID_list)
         Apps = row_manager(Apps, ID_list)
+        Apps = pd.merge(Apps, Teams, 'inner', on=['teamID', 'yearID'])
     except Exception as e:
         print(f"An error occurred in transform_HoF: {e}")
-    return HoF, People, Apps, Teams
+    return HoF, People, Apps
 
 
 def column_manager(df):
@@ -25,7 +26,7 @@ def column_manager(df):
                            'G_cf', 'G_rf', 'G_of', 'G_dh', 'G_ph', 'G_pr']
             df.drop(col_to_drop, axis=1, inplace=True)
         elif 'attendance' in df.columns:
-            col_to_drop = ['yearID', 'divID', 'Rank', 'G', 'Ghome', 'W', 'L',
+            col_to_drop = ['divID', 'Rank', 'G', 'Ghome', 'W', 'L',
                            'DivWin', 'WCWin', 'LgWin', 'WSWin', 'R', 'AB',
                            'H', '2B', '3B', 'HR', 'BB', 'SO', 'SB', 'CS',
                            'HBP', 'SF', 'RA', 'ER', 'ERA', 'CG', 'SHO', 'SV',
