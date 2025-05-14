@@ -18,7 +18,7 @@ def etl_process():
 
         trans_data = transform_HoF(HoF, People, Apps)
 
-        load_HoF(trans_data)
+        load_HoF(trans_data[0], trans_data[1], trans_data[2])
     except Exception as e:
         print(f"An error occurred: {e}")
 
