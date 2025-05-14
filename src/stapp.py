@@ -12,22 +12,11 @@ def selector(df, player):
         print(f"An error occurred: {e}")
 
 
-st.title('MLB Hall of Fame')
-
-ID_list = list_IDs(df)
-
-
 def display_name(opt):
     try:
         return ID_list[opt]
     except Exception as e:
         print(f"An error occurred: {e}")
-
-
-player = st.selectbox('Select a Hall of Famer',
-                      ID_list.keys(), format_func=display_name)
-
-filtered_df = selector(df, player)
 
 
 def write_days(df):
@@ -72,6 +61,15 @@ def write_days(df):
 
     st.write('Died: ', death)
 
+
+st.title('MLB Hall of Fame')
+
+ID_list = list_IDs(df)
+
+player = st.selectbox('Select a Hall of Famer',
+                      ID_list.keys(), format_func=display_name)
+
+filtered_df = selector(df, player)
 
 write_days(filtered_df)
 
