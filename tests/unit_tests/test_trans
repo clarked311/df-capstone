@@ -1,0 +1,8 @@
+import pytest
+from etl.transform.transform import transform_HoF, column_manager, \
+ list_IDs, row_manager
+
+
+@pytest.fixture
+def extracted_data():
+    return extract_HoF_data()
