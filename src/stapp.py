@@ -3,36 +3,47 @@ import streamlit as st
 import plotly.express as px
 
 
+# a function to reduce the df to the section containing the player
 def selector(df, player):
     try:
+        # making it so the only rows included have the correct playerID
         return df[(df['playerID'] == player)]
     except Exception as e:
         print(f"An error occurred in selector: {e}")
 
 
+# a function to display the name of the player
 def display_name(opt):
     try:
+        # just returning the correct part of the list
         return ID_list[opt]
     except Exception as e:
         print(f"An error occurred in display_name: {e}")
 
 
+# a function to allow picking a name of a player
 def name_picker(df):
     try:
+        # initialising empty ID_list
         ID_list = []
     except Exception as e:
         print(f"An error occurred in ID_list setup: {e}")
     try:
+        # specifying which columns to keep
         cols_to_ret = ['playerID', 'nameFirst', 'nameLast']
+        # keeping those columns
         mid_list = df.loc[:, cols_to_ret]
     except Exception as e:
         print(f"An error occurred in mid_list: {e}")
     try:
+        # creating a new variable with the player's full name
         name = mid_list['nameFirst'] + ' ' + mid_list['nameLast']
+        # loading names in to dict with the ID as the key
         ID_list = pd.Series(name.to_numpy(),
                             index=mid_list['playerID']).to_dict()
     except Exception as e:
         print(f"An error occurred in ID_list allocation: {e}")
+    # returning the dictionary
     return ID_list
 
 
