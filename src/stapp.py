@@ -110,27 +110,16 @@ def HoF_tracker(df):
 
 def team_chart(df):
     try:
-        y = df.loc[:, ['name']]
-        y = y['name']
-        y = y.unique()
-        y = y.tolist()
-        z = pd.DataFrame(columns=['team', 'start', 'end'])
-        for i in y:
-            start = df.loc[df['name'] == i].min
-            start = str(start)
-            start += '-01-01'
-            end = df.loc[df['name'] == i].max
-            end = str(end)
-            end += '01-01'
-            d = {'team': i, 'start': start, 'end': end}
-            r = pd.DataFrame(data=d)
-            pd.concat[z, r]
-        z['start'] = pd.to_datetime(z['start'])
-        z['end'] = pd.to_datetime(z['end'])
+        filtered_df = df.loc[:, ['name', 'yearID']]
+        filtered_df = filtered_df.rename(columns={'yearID': 'x_start'})
+        filtered_df['x_end'] = filtered_df.loc[:, ['x_start']]
+        filtered_df['x_start'] = filtered_df['x_start'].apply(lambda year: f"{year}-01-01")
+        filtered_df['x_end'] = filtered_df['x_end'].apply(lambda year: f"{year}-12-31")
 
-        fig = px.timeline(z.sort_values('start'), x_start="start", x_end="end",
-                          y="name", text="name", color_discrete_sequence=["tan"])
-        fig.show()
+        fig = px.timeline(filtered_df, x_start="x_start", x_end="x_end",
+                          y="name", color_discrete_sequence=["tan"])
+        
+        st.plotly_chart(fig)
     except Exception as e:
         print(f"An error occurred in team_chart: {e}")
 
