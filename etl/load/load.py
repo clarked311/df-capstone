@@ -15,4 +15,3 @@ def load_HoF(HoF, People, Apps):
         Apps.to_csv(filepath, encoding='ISO-8859-1')
     except Exception as e:
         print(f'An error occurred in load_HoF: {e}')
-    return 'Extracted'
