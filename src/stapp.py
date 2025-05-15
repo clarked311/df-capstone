@@ -154,7 +154,7 @@ def HoF_tracker(df):
         print(f"An error occurred in HoF_tracker: {e}")
 
 
-# a function to traw a team chart
+# a function to draw a team chart
 def team_chart(df):
     try:
         # paring down the df to only name and yearID
