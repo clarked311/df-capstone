@@ -101,9 +101,16 @@ def play_info(df):
 
 def HoF_tracker(df):
     try:
-        st.line_chart(data=df, x='yearid', y=['needed', 'votes'],
-                      x_label='year', y_label='votes',
-                      color=['#000000', '#0000FF'])
+        col1, col2 = st.columns(2)
+        df['yearid'] = df['yearid'].apply(lambda year: f"{year}")
+        with col1:
+            st.line_chart(data=df, x='yearid', y=['needed', 'votes'],
+                        x_label='year', y_label='votes',
+                        color=['#000000', '#0000FF'])
+        with col2:
+            st.line_chart(data=df, x='yearid', y=['vote_share'],
+                        x_label='year', y_label='vote %',
+                        color='#0000FF')
     except Exception as e:
         print(f"An error occurred in HoF_tracker: {e}")
 
@@ -113,12 +120,14 @@ def team_chart(df):
         filtered_df = df.loc[:, ['name', 'yearID']]
         filtered_df = filtered_df.rename(columns={'yearID': 'x_start'})
         filtered_df['x_end'] = filtered_df.loc[:, ['x_start']]
-        filtered_df['x_start'] = filtered_df['x_start'].apply(lambda year: f"{year}-01-01")
-        filtered_df['x_end'] = filtered_df['x_end'].apply(lambda year: f"{year}-12-31")
+        filtered_df['x_start'] = \
+            filtered_df['x_start'].apply(lambda year: f"{year}-01-01")
+        filtered_df['x_end'] = \
+            filtered_df['x_end'].apply(lambda year: f"{year}-12-31")
 
         fig = px.timeline(filtered_df, x_start="x_start", x_end="x_end",
                           y="name", color_discrete_sequence=["tan"])
-        
+
         st.plotly_chart(fig)
     except Exception as e:
         print(f"An error occurred in team_chart: {e}")
