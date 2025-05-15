@@ -105,12 +105,12 @@ def HoF_tracker(df):
         df['yearid'] = df['yearid'].apply(lambda year: f"{year}")
         with col1:
             st.line_chart(data=df, x='yearid', y=['needed', 'votes'],
-                        x_label='year', y_label='votes',
-                        color=['#000000', '#0000FF'])
+                          x_label='year', y_label='votes',
+                          color=['#000000', '#0000FF'])
         with col2:
             st.line_chart(data=df, x='yearid', y=['vote_share'],
-                        x_label='year', y_label='vote %',
-                        color='#0000FF')
+                          x_label='year', y_label='vote %',
+                          color='#0000FF')
     except Exception as e:
         print(f"An error occurred in HoF_tracker: {e}")
 
