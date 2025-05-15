@@ -19,7 +19,7 @@ def display_name(opt):
 
 def name_picker(df):
     try:
-        ID_list = []
+        ID_list = {}
     except Exception as e:
         print(f"An error occurred in ID_list setup: {e}")
     try:
@@ -155,7 +155,3 @@ play_info(filtered_People)
 HoF_tracker(filtered_HoF)
 
 team_chart(filtered_Apps)
-
-filtered_Apps
-
-filtered_HoF
