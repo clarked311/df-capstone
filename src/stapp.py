@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+import plotly.express as px
 
 
 def selector(df, player):
@@ -108,7 +109,30 @@ def HoF_tracker(df):
 
 
 def team_chart(df):
-    pass
+    try:
+        y = df.loc[:, ['name']]
+        y = y['name']
+        y = y.unique()
+        y = y.tolist()
+        z = pd.DataFrame(columns=['team', 'start', 'end'])
+        for i in y:
+            start = df.loc[df['name'] == i].min
+            start = str(start)
+            start += '-01-01'
+            end = df.loc[df['name'] == i].max
+            end = str(end)
+            end += '01-01'
+            d = {'team': i, 'start': start, 'end': end}
+            r = pd.DataFrame(data=d)
+            pd.concat[z, r]
+        z['start'] = pd.to_datetime(z['start'])
+        z['end'] = pd.to_datetime(z['end'])
+
+        fig = px.timeline(z.sort_values('start'), x_start="start", x_end="end",
+                          y="name", text="name", color_discrete_sequence=["tan"])
+        fig.show()
+    except Exception as e:
+        print(f"An error occurred in team_chart: {e}")
 
 
 HoF = pd.read_csv('data/output/trans_HoF.csv', encoding='ISO-8859-1')
@@ -131,6 +155,8 @@ write_days(filtered_People)
 play_info(filtered_People)
 
 HoF_tracker(filtered_HoF)
+
+team_chart(filtered_Apps)
 
 filtered_Apps
 
